@@ -1,0 +1,5 @@
+
+    parm a-bam-p/a03/original/full.hmr.topo
+    trajin a-bam-p/a03/generated/full.pdb
+    mask ":MGO" maskmol2 a-bam-p/a03/generated/MGO.mol2
+    

@@ -1,0 +1,5 @@
+
+    parm a-bam-p/a05/original/full.hmr.topo
+    trajin a-bam-p/a05/original/full.crds
+    trajout a-bam-p/a05/generated/full.pdb conect
+    
