@@ -1,0 +1,28 @@
+name: smirnoff-paprika
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+  - omnia
+  - openeye
+dependencies:
+  - python=3.6
+  - anaconda::numpy=1.13.3
+  - anaconda::scipy=1.0.0
+  - anaconda::matplotlib=2.0.2
+  - anaconda::ipykernel=4.8.0
+  - anaconda::networkx=1.11
+  - anaconda::lxml=3.8.0
+  - anaconda::pylint
+  - anaconda::pip
+  - bioconda::nglview=1.0
+  - omnia::parmed==2.7.3
+  - omnia::openmm=7.1.1
+  - omnia::openmoltools=0.8.1
+  - openeye::openeye-toolkits
+  - yapf
+  - pip
+  - pip:
+    - git+https://github.com/open-forcefield-group/openforcefield@548f04d005a51c03b40f1b4fa0ec32b80ae10775
+    - git+https://github.com/slochower/smirnoff-host-guest@3beb0b37f4a5f6eb2849e7c16e53ed7d0498b4b7
+    - git+https://github.com/slochower/paprika/@62869c7bb86379f9dda44feb904fb8f2c8379432
