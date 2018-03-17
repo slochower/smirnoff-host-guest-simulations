@@ -24,5 +24,5 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/open-forcefield-group/openforcefield@548f04d005a51c03b40f1b4fa0ec32b80ae10775
-    - git+https://github.com/slochower/smirnoff-host-guest@90ceaf6f4e4a31f94b697c6da3bb33673862b607
+    - git+https://github.com/slochower/smirnoff-host-guest@b0638f49709094d26ab22a8b24a2e49067005231
     - git+https://github.com/slochower/paprika/@62869c7bb86379f9dda44feb904fb8f2c8379432
