@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - omnia
   - openeye
+  - ambermd
 dependencies:
   - python=3.6
   - anaconda::numpy=1.13.3
@@ -16,10 +17,11 @@ dependencies:
   - anaconda::pylint
   - anaconda::pip
   - bioconda::nglview=1.0
-  - omnia::parmed==2.7.3
+  - omnia::parmed=2.7.3
   - omnia::openmm=7.1.1
   - omnia::openmoltools=0.8.1
   - openeye::openeye-toolkits
+  - ambermd::pytraj=2.0.2
   - yapf
   - pip
   - pip:

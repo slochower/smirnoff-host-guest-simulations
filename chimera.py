@@ -8,7 +8,7 @@ import os
 
 def color_restraints(restraint_file, color, suffix, md_file, path='./'):
     """
-    Write a bash script to render restraints in Chimera using the atom indices specifed in an AMBER restraint file (i.e., `disang.rest`).
+    Write a bash script to render restraints in Chimera using the atom indices specifed in an AMBER restraint file (e.g., `disang.rest`).
 
     Parameters:
     ----------
