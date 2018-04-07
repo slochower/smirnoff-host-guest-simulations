@@ -1,0 +1,36 @@
+PBC Minimization
+ &cntrl
+  imin =          1,
+  ntx =           1,
+  irest =         0,
+  maxcyc =        50000,
+  ncyc =          5000,
+  dt =            0.0,
+  nstlim =        0,
+  ntpr =          100,
+  ntwe =          0,
+  ntwr =          5000,
+  ntwx =          0,
+  ntxo =          1,
+  ioutfm =        1,
+  ntf =           1,
+  ntc =           1,
+  cut =           9.0,
+  igb =           0,
+  tempi =         298.15,
+  temp0 =         298.15,
+  ntt =           0,
+  gamma_ln =      0.0,
+  ig =            0,
+  ntp =           0,
+  barostat =      0,
+  ntr =           1,
+  restraint_wt =  50.0,
+  restraintmask = ':8-10 | :7@C4 | :7@N1',
+  nmropt =        1,
+  pencut =        -1,
+ /
+ &wt type = 'END', /
+DISANG = disang.rest
+LISTOUT = POUT
+

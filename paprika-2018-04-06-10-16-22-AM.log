@@ -1,0 +1,1098 @@
+2018-04-06 10:16:22 AM Started logging...
+2018-04-06 10:16:22 AM OpenMM support: Yes
+2018-04-06 10:16:30 AM Calculating attach targets and force constants...
+2018-04-06 10:16:30 AM Attach, Method #1
+2018-04-06 10:16:30 AM Calculating pull targets and force constants...
+2018-04-06 10:16:30 AM Pull, Method #1
+2018-04-06 10:16:30 AM Calculating release targets and force constants...
+2018-04-06 10:16:30 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:30 AM Number of attach windows = 15
+2018-04-06 10:16:30 AM Number of pull windows = 46
+2018-04-06 10:16:30 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:30 AM Assigning atom indices...
+2018-04-06 10:16:30 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:30 AM There are 1 atoms in the mask :1@O3  ...
+2018-04-06 10:16:30 AM Calculating attach targets and force constants...
+2018-04-06 10:16:30 AM Attach, Method #1
+2018-04-06 10:16:30 AM Calculating pull targets and force constants...
+2018-04-06 10:16:30 AM Pull, Method #1
+2018-04-06 10:16:30 AM Calculating release targets and force constants...
+2018-04-06 10:16:30 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:30 AM Number of attach windows = 15
+2018-04-06 10:16:30 AM Number of pull windows = 46
+2018-04-06 10:16:30 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:30 AM Assigning atom indices...
+2018-04-06 10:16:30 AM There are 1 atoms in the mask :9  ...
+2018-04-06 10:16:30 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:30 AM There are 1 atoms in the mask :1@O3  ...
+2018-04-06 10:16:31 AM Calculating attach targets and force constants...
+2018-04-06 10:16:31 AM Attach, Method #1
+2018-04-06 10:16:31 AM Calculating pull targets and force constants...
+2018-04-06 10:16:31 AM Pull, Method #1
+2018-04-06 10:16:31 AM Calculating release targets and force constants...
+2018-04-06 10:16:31 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:31 AM Number of attach windows = 15
+2018-04-06 10:16:31 AM Number of pull windows = 46
+2018-04-06 10:16:31 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:31 AM Assigning atom indices...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :10  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :9  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :1@O3  ...
+2018-04-06 10:16:31 AM Calculating attach targets and force constants...
+2018-04-06 10:16:31 AM Attach, Method #1
+2018-04-06 10:16:31 AM Calculating pull targets and force constants...
+2018-04-06 10:16:31 AM Pull, Method #1
+2018-04-06 10:16:31 AM Calculating release targets and force constants...
+2018-04-06 10:16:31 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:31 AM Number of attach windows = 15
+2018-04-06 10:16:31 AM Number of pull windows = 46
+2018-04-06 10:16:31 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:31 AM Assigning atom indices...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :1@O3  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :3@C1  ...
+2018-04-06 10:16:31 AM Calculating attach targets and force constants...
+2018-04-06 10:16:31 AM Attach, Method #1
+2018-04-06 10:16:31 AM Calculating pull targets and force constants...
+2018-04-06 10:16:31 AM Pull, Method #1
+2018-04-06 10:16:31 AM Calculating release targets and force constants...
+2018-04-06 10:16:31 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:31 AM Number of attach windows = 15
+2018-04-06 10:16:31 AM Number of pull windows = 46
+2018-04-06 10:16:31 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:31 AM Assigning atom indices...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :9  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :1@O3  ...
+2018-04-06 10:16:31 AM There are 1 atoms in the mask :3@C1  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #1
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :1@O3  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :3@C1  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :5@C6  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #3
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #3
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :9  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #3
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :8  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :7@N1  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #3
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :1@O5  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :1@C1  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :1@O1  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :2@C4  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #3
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :1@C1  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :1@O1  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :2@C4  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :2@C5  ...
+2018-04-06 10:16:32 AM Calculating attach targets and force constants...
+2018-04-06 10:16:32 AM Attach, Method #3
+2018-04-06 10:16:32 AM Calculating pull targets and force constants...
+2018-04-06 10:16:32 AM Pull, Method #1
+2018-04-06 10:16:32 AM Calculating release targets and force constants...
+2018-04-06 10:16:32 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:32 AM Number of attach windows = 15
+2018-04-06 10:16:32 AM Number of pull windows = 46
+2018-04-06 10:16:32 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:32 AM Assigning atom indices...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :2@O5  ...
+2018-04-06 10:16:32 AM There are 1 atoms in the mask :2@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :2@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@C4  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :2@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :2@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@C4  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@C5  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@O5  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@C4  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :3@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@C4  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@C5  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@O5  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@C4  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :4@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@C4  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@C5  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@O5  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :6@C4  ...
+2018-04-06 10:16:33 AM Calculating attach targets and force constants...
+2018-04-06 10:16:33 AM Attach, Method #3
+2018-04-06 10:16:33 AM Calculating pull targets and force constants...
+2018-04-06 10:16:33 AM Pull, Method #1
+2018-04-06 10:16:33 AM Calculating release targets and force constants...
+2018-04-06 10:16:33 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:33 AM Number of attach windows = 15
+2018-04-06 10:16:33 AM Number of pull windows = 46
+2018-04-06 10:16:33 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:33 AM Assigning atom indices...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@C1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :5@O1  ...
+2018-04-06 10:16:33 AM There are 1 atoms in the mask :6@C4  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :6@C5  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM Pull, Method #1
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM Number of pull windows = 46
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :6@O5  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :6@C1  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :6@O1  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :1@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM Pull, Method #1
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM Number of pull windows = 46
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :6@C1  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :6@O1  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :1@C4  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :1@C5  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :1@O2  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :1@O6  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :2@O2  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :2@O6  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :3@O2  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :3@O6  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :4@O2  ...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:34 AM Calculating attach targets and force constants...
+2018-04-06 10:16:34 AM Attach, Method #3
+2018-04-06 10:16:34 AM Calculating pull targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:34 AM Calculating release targets and force constants...
+2018-04-06 10:16:34 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:34 AM Number of attach windows = 15
+2018-04-06 10:16:34 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:34 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:34 AM Assigning atom indices...
+2018-04-06 10:16:34 AM There are 1 atoms in the mask :4@O6  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:35 AM Calculating attach targets and force constants...
+2018-04-06 10:16:35 AM Attach, Method #3
+2018-04-06 10:16:35 AM Calculating pull targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:35 AM Calculating release targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:35 AM Number of attach windows = 15
+2018-04-06 10:16:35 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:35 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:35 AM Assigning atom indices...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :5@O2  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:35 AM Calculating attach targets and force constants...
+2018-04-06 10:16:35 AM Attach, Method #3
+2018-04-06 10:16:35 AM Calculating pull targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:35 AM Calculating release targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:35 AM Number of attach windows = 15
+2018-04-06 10:16:35 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:35 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:35 AM Assigning atom indices...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :5@O6  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:35 AM Calculating attach targets and force constants...
+2018-04-06 10:16:35 AM Attach, Method #3
+2018-04-06 10:16:35 AM Calculating pull targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:35 AM Calculating release targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:35 AM Number of attach windows = 15
+2018-04-06 10:16:35 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:35 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:35 AM Assigning atom indices...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :6@O2  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:35 AM Calculating attach targets and force constants...
+2018-04-06 10:16:35 AM Attach, Method #3
+2018-04-06 10:16:35 AM Calculating pull targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:35 AM Calculating release targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:35 AM Number of attach windows = 15
+2018-04-06 10:16:35 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:35 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:35 AM Assigning atom indices...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :6@O6  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:35 AM Calculating attach targets and force constants...
+2018-04-06 10:16:35 AM Attach, Method #3
+2018-04-06 10:16:35 AM Calculating pull targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the pull phase! Skipping...
+2018-04-06 10:16:35 AM Calculating release targets and force constants...
+2018-04-06 10:16:35 AM No restraint info set for the release phase! Skipping...
+2018-04-06 10:16:35 AM Number of attach windows = 15
+2018-04-06 10:16:35 AM This restraint will be skipped in the pull phase
+2018-04-06 10:16:35 AM This restraint will be skipped in the release phase
+2018-04-06 10:16:35 AM Assigning atom indices...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :9  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@C4  ...
+2018-04-06 10:16:35 AM There are 1 atoms in the mask :7@N1  ...
+2018-04-06 10:16:39 AM All restraints are "continuous_apr" style.
+2018-04-06 10:16:39 AM Restraints appear to be consistent
+2018-04-06 10:17:11 AM diff parser start
+2018-04-06 10:17:11 AM diff parser calculated
+2018-04-06 10:17:11 AM diff: line_lengths old: 20, new: 20
+2018-04-06 10:17:11 AM diff equal old[1:6] new[1:6]
+2018-04-06 10:17:11 AM parse_part from 1 to 20 (to 19 in part parser)
+2018-04-06 10:17:11 AM diff replace old[7:7] new[7:7]
+2018-04-06 10:17:11 AM diff equal old[8:20] new[8:20]
+2018-04-06 10:17:11 AM diff parser end
+2018-04-06 10:17:12 AM diff parser start
+2018-04-06 10:17:12 AM diff parser calculated
+2018-04-06 10:17:12 AM diff: line_lengths old: 20, new: 20
+2018-04-06 10:17:12 AM diff equal old[1:6] new[1:6]
+2018-04-06 10:17:12 AM parse_part from 1 to 20 (to 19 in part parser)
+2018-04-06 10:17:12 AM diff replace old[7:7] new[7:7]
+2018-04-06 10:17:12 AM diff equal old[8:20] new[8:20]
+2018-04-06 10:17:12 AM diff parser end
+2018-04-06 10:17:13 AM diff parser start
+2018-04-06 10:17:13 AM diff parser calculated
+2018-04-06 10:17:13 AM diff: line_lengths old: 20, new: 20
+2018-04-06 10:17:13 AM diff equal old[1:6] new[1:6]
+2018-04-06 10:17:13 AM parse_part from 1 to 20 (to 19 in part parser)
+2018-04-06 10:17:13 AM diff replace old[7:7] new[7:7]
+2018-04-06 10:17:13 AM diff equal old[8:20] new[8:20]
+2018-04-06 10:17:13 AM diff parser end
+2018-04-06 10:17:14 AM diff parser start
+2018-04-06 10:17:14 AM diff parser calculated
+2018-04-06 10:17:14 AM diff: line_lengths old: 20, new: 20
+2018-04-06 10:17:14 AM diff equal old[1:6] new[1:6]
+2018-04-06 10:17:14 AM parse_part from 1 to 20 (to 19 in part parser)
+2018-04-06 10:17:14 AM diff replace old[7:7] new[7:7]
+2018-04-06 10:17:14 AM diff equal old[8:20] new[8:20]
+2018-04-06 10:17:14 AM diff parser end
+2018-04-06 10:35:36 AM diff parser start
+2018-04-06 10:35:36 AM diff parser calculated
+2018-04-06 10:35:36 AM diff: line_lengths old: 20, new: 24
+2018-04-06 10:35:36 AM diff insert old[1:0] new[1:2]
+2018-04-06 10:35:36 AM parse_part from 1 to 23 (to 23 in part parser)
+2018-04-06 10:35:36 AM diff equal old[1:3] new[3:5]
+2018-04-06 10:35:36 AM diff replace old[4:4] new[6:6]
+2018-04-06 10:35:36 AM diff equal old[5:6] new[7:8]
+2018-04-06 10:35:36 AM diff replace old[7:7] new[9:12]
+2018-04-06 10:35:36 AM diff equal old[8:10] new[13:15]
+2018-04-06 10:35:36 AM diff delete old[11:11] new[16:15]
+2018-04-06 10:35:36 AM diff equal old[12:19] new[16:23]
+2018-04-06 10:35:36 AM diff replace old[20:20] new[24:24]
+2018-04-06 10:35:36 AM diff parser end
+2018-04-06 10:35:36 AM pickle loaded: /home/dslochower/data/applications/anaconda3/envs/smirnoff-paprika/lib/python3.6/site-packages/numpy/__init__.py
+2018-04-06 10:35:36 AM pickle loaded: /home/dslochower/data/applications/anaconda3/envs/smirnoff-paprika/lib/python3.6/site-packages/numpy/core/numeric.py
+2018-04-06 10:35:36 AM pickle loaded: /home/dslochower/data/applications/anaconda3/envs/smirnoff-paprika/lib/python3.6/site-packages/numpy/lib/shape_base.py
+2018-04-06 10:35:37 AM diff parser start
+2018-04-06 10:35:37 AM diff parser calculated
+2018-04-06 10:35:37 AM diff: line_lengths old: 24, new: 24
+2018-04-06 10:35:37 AM diff replace old[1:1] new[1:1]
+2018-04-06 10:35:37 AM parse_part from 1 to 1 (to 1 in part parser)
+2018-04-06 10:35:37 AM diff equal old[2:24] new[2:24]
+2018-04-06 10:35:37 AM parse_part from 2 to 23 (to 23 in part parser)
+2018-04-06 10:35:37 AM diff parser end
+2018-04-06 10:58:11 AM diff parser start
+2018-04-06 10:58:11 AM diff parser calculated
+2018-04-06 10:58:11 AM diff: line_lengths old: 24, new: 39
+2018-04-06 10:58:11 AM diff replace old[1:1] new[1:5]
+2018-04-06 10:58:11 AM parse_part from 1 to 5 (to 5 in part parser)
+2018-04-06 10:58:11 AM diff equal old[2:3] new[6:7]
+2018-04-06 10:58:11 AM parse_part from 6 to 39 (to 38 in part parser)
+2018-04-06 10:58:11 AM diff insert old[4:3] new[8:18]
+2018-04-06 10:58:11 AM diff equal old[4:23] new[19:38]
+2018-04-06 10:58:11 AM diff replace old[24:24] new[39:39]
+2018-04-06 10:58:11 AM diff parser end
+2018-04-06 10:58:39 AM diff parser start
+2018-04-06 10:58:39 AM diff parser calculated
+2018-04-06 10:58:39 AM diff: line_lengths old: 39, new: 39
+2018-04-06 10:58:39 AM diff equal old[1:18] new[1:18]
+2018-04-06 10:58:39 AM diff actually copy 1 to 5
+2018-04-06 10:58:39 AM parse_part from 6 to 39 (to 38 in part parser)
+2018-04-06 10:58:39 AM diff replace old[19:19] new[19:19]
+2018-04-06 10:58:39 AM diff equal old[20:38] new[20:38]
+2018-04-06 10:58:39 AM diff replace old[39:39] new[39:39]
+2018-04-06 10:58:39 AM diff parser end
+2018-04-06 11:05:49 AM diff parser start
+2018-04-06 11:05:49 AM diff parser calculated
+2018-04-06 11:05:49 AM diff: line_lengths old: 39, new: 40
+2018-04-06 11:05:49 AM diff equal old[1:17] new[1:17]
+2018-04-06 11:05:49 AM diff actually copy 1 to 5
+2018-04-06 11:05:49 AM parse_part from 6 to 40 (to 39 in part parser)
+2018-04-06 11:05:49 AM diff insert old[18:17] new[18:18]
+2018-04-06 11:05:49 AM diff equal old[18:38] new[19:39]
+2018-04-06 11:05:49 AM diff replace old[39:39] new[40:40]
+2018-04-06 11:05:49 AM diff parser end
+2018-04-06 11:06:02 AM diff parser start
+2018-04-06 11:06:02 AM diff parser calculated
+2018-04-06 11:06:02 AM diff: line_lengths old: 40, new: 42
+2018-04-06 11:06:02 AM diff equal old[1:17] new[1:17]
+2018-04-06 11:06:02 AM diff actually copy 1 to 5
+2018-04-06 11:06:02 AM parse_part from 6 to 42 (to 41 in part parser)
+2018-04-06 11:06:02 AM diff replace old[18:18] new[18:18]
+2018-04-06 11:06:02 AM diff equal old[19:20] new[19:20]
+2018-04-06 11:06:02 AM diff insert old[21:20] new[21:22]
+2018-04-06 11:06:02 AM diff equal old[21:40] new[23:42]
+2018-04-06 11:06:02 AM diff parser end
+2018-04-06 11:06:06 AM diff parser start
+2018-04-06 11:06:06 AM diff parser calculated
+2018-04-06 11:06:06 AM diff: line_lengths old: 42, new: 42
+2018-04-06 11:06:06 AM diff equal old[1:21] new[1:21]
+2018-04-06 11:06:06 AM diff actually copy 1 to 5
+2018-04-06 11:06:06 AM parse_part from 6 to 42 (to 41 in part parser)
+2018-04-06 11:06:06 AM diff replace old[22:22] new[22:22]
+2018-04-06 11:06:06 AM diff equal old[23:42] new[23:42]
+2018-04-06 11:06:06 AM diff parser end
+2018-04-06 11:06:09 AM diff parser start
+2018-04-06 11:06:09 AM diff parser calculated
+2018-04-06 11:06:09 AM diff: line_lengths old: 42, new: 42
+2018-04-06 11:06:09 AM diff equal old[1:21] new[1:21]
+2018-04-06 11:06:09 AM diff actually copy 1 to 5
+2018-04-06 11:06:09 AM parse_part from 6 to 42 (to 41 in part parser)
+2018-04-06 11:06:09 AM diff replace old[22:22] new[22:22]
+2018-04-06 11:06:09 AM diff equal old[23:42] new[23:42]
+2018-04-06 11:06:09 AM diff parser end
+2018-04-06 11:20:19 AM diff parser start
+2018-04-06 11:20:19 AM diff parser calculated
+2018-04-06 11:20:19 AM diff: line_lengths old: 42, new: 44
+2018-04-06 11:20:19 AM diff equal old[1:10] new[1:10]
+2018-04-06 11:20:19 AM diff actually copy 1 to 5
+2018-04-06 11:20:19 AM parse_part from 6 to 44 (to 43 in part parser)
+2018-04-06 11:20:19 AM diff replace old[11:11] new[11:11]
+2018-04-06 11:20:19 AM diff equal old[12:12] new[12:12]
+2018-04-06 11:20:19 AM diff replace old[13:13] new[13:13]
+2018-04-06 11:20:19 AM diff equal old[14:14] new[14:14]
+2018-04-06 11:20:19 AM diff replace old[15:15] new[15:15]
+2018-04-06 11:20:19 AM diff equal old[16:16] new[16:16]
+2018-04-06 11:20:19 AM diff replace old[17:17] new[17:19]
+2018-04-06 11:20:19 AM diff equal old[18:21] new[20:23]
+2018-04-06 11:20:19 AM diff replace old[22:22] new[24:24]
+2018-04-06 11:20:19 AM diff equal old[23:42] new[25:44]
+2018-04-06 11:20:19 AM diff parser end
+2018-04-06 11:21:47 AM diff parser start
+2018-04-06 11:21:47 AM diff parser calculated
+2018-04-06 11:21:47 AM diff: line_lengths old: 44, new: 1
+2018-04-06 11:21:47 AM diff replace old[1:44] new[1:1]
+2018-04-06 11:21:47 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:21:47 AM diff parser end
+2018-04-06 11:22:49 AM diff parser start
+2018-04-06 11:22:49 AM diff parser calculated
+2018-04-06 11:22:49 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:22:49 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:22:49 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:22:49 AM diff parser end
+2018-04-06 11:22:50 AM diff parser start
+2018-04-06 11:22:50 AM diff parser calculated
+2018-04-06 11:22:50 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:22:50 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:22:50 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:22:50 AM diff parser end
+2018-04-06 11:22:50 AM pickle loaded: /home/dslochower/hgst-3tb-data/projects/pAPRika/paprika/__init__.py
+2018-04-06 11:22:50 AM pickle loaded: /home/dslochower/hgst-3tb-data/projects/pAPRika/paprika/analysis.py
+2018-04-06 11:22:53 AM diff parser start
+2018-04-06 11:22:53 AM diff parser calculated
+2018-04-06 11:22:53 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:22:53 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:22:53 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:22:53 AM diff parser end
+2018-04-06 11:22:54 AM diff parser start
+2018-04-06 11:22:54 AM diff parser calculated
+2018-04-06 11:22:54 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:22:54 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:22:54 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:22:54 AM diff parser end
+2018-04-06 11:22:58 AM diff parser start
+2018-04-06 11:22:58 AM diff parser calculated
+2018-04-06 11:22:58 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:22:58 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:22:58 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:22:58 AM diff parser end
+2018-04-06 11:26:23 AM diff parser start
+2018-04-06 11:26:23 AM diff parser calculated
+2018-04-06 11:26:23 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:23 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:23 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:23 AM diff parser end
+2018-04-06 11:26:33 AM diff parser start
+2018-04-06 11:26:33 AM diff parser calculated
+2018-04-06 11:26:33 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:33 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:33 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:33 AM diff parser end
+2018-04-06 11:26:37 AM diff parser start
+2018-04-06 11:26:37 AM diff parser calculated
+2018-04-06 11:26:37 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:37 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:37 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:37 AM diff parser end
+2018-04-06 11:26:42 AM diff parser start
+2018-04-06 11:26:42 AM diff parser calculated
+2018-04-06 11:26:42 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:42 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:42 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:42 AM diff parser end
+2018-04-06 11:26:43 AM diff parser start
+2018-04-06 11:26:43 AM diff parser calculated
+2018-04-06 11:26:43 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:43 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:43 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:43 AM diff parser end
+2018-04-06 11:26:46 AM diff parser start
+2018-04-06 11:26:46 AM diff parser calculated
+2018-04-06 11:26:46 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:46 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:46 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:46 AM diff parser end
+2018-04-06 11:26:46 AM pickle loaded: /home/dslochower/hgst-3tb-data/projects/pAPRika/paprika/restraints.py
+2018-04-06 11:26:48 AM diff parser start
+2018-04-06 11:26:48 AM diff parser calculated
+2018-04-06 11:26:48 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:48 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:48 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:48 AM diff parser end
+2018-04-06 11:26:49 AM diff parser start
+2018-04-06 11:26:49 AM diff parser calculated
+2018-04-06 11:26:49 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:49 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:49 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:49 AM diff parser end
+2018-04-06 11:26:49 AM diff parser start
+2018-04-06 11:26:49 AM diff parser calculated
+2018-04-06 11:26:49 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:49 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:49 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:49 AM diff parser end
+2018-04-06 11:26:50 AM diff parser start
+2018-04-06 11:26:50 AM diff parser calculated
+2018-04-06 11:26:50 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:50 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:50 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:50 AM diff parser end
+2018-04-06 11:26:58 AM diff parser start
+2018-04-06 11:26:58 AM diff parser calculated
+2018-04-06 11:26:58 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:58 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:58 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:58 AM diff parser end
+2018-04-06 11:26:59 AM diff parser start
+2018-04-06 11:26:59 AM diff parser calculated
+2018-04-06 11:26:59 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:26:59 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:26:59 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:26:59 AM diff parser end
+2018-04-06 11:27:02 AM diff parser start
+2018-04-06 11:27:02 AM diff parser calculated
+2018-04-06 11:27:02 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:27:02 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:27:02 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:27:02 AM diff parser end
+2018-04-06 11:27:11 AM diff parser start
+2018-04-06 11:27:11 AM diff parser calculated
+2018-04-06 11:27:11 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:27:11 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:27:11 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:27:11 AM diff parser end
+2018-04-06 11:27:13 AM diff parser start
+2018-04-06 11:27:13 AM diff parser calculated
+2018-04-06 11:27:13 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:27:13 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:27:13 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:27:13 AM diff parser end
+2018-04-06 11:27:16 AM diff parser start
+2018-04-06 11:27:16 AM diff parser calculated
+2018-04-06 11:27:16 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:27:16 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:27:16 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:27:16 AM diff parser end
+2018-04-06 11:27:18 AM diff parser start
+2018-04-06 11:27:18 AM diff parser calculated
+2018-04-06 11:27:18 AM diff: line_lengths old: 1, new: 1
+2018-04-06 11:27:18 AM diff replace old[1:1] new[1:1]
+2018-04-06 11:27:18 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:27:18 AM diff parser end
+2018-04-06 11:38:03 AM diff parser start
+2018-04-06 11:38:03 AM diff parser calculated
+2018-04-06 11:38:03 AM diff: line_lengths old: 1, new: 47
+2018-04-06 11:38:03 AM diff replace old[1:1] new[1:47]
+2018-04-06 11:38:03 AM parse_part from 1 to 47 (to 46 in part parser)
+2018-04-06 11:38:03 AM diff parser end
+2018-04-06 11:38:04 AM diff parser start
+2018-04-06 11:38:04 AM diff parser calculated
+2018-04-06 11:38:04 AM diff: line_lengths old: 47, new: 47
+2018-04-06 11:38:04 AM diff equal old[1:23] new[1:23]
+2018-04-06 11:38:04 AM diff actually copy 1 to 5
+2018-04-06 11:38:04 AM parse_part from 6 to 47 (to 46 in part parser)
+2018-04-06 11:38:04 AM diff replace old[24:24] new[24:24]
+2018-04-06 11:38:04 AM diff equal old[25:47] new[25:47]
+2018-04-06 11:38:04 AM diff parser end
+2018-04-06 11:38:50 AM diff parser start
+2018-04-06 11:38:50 AM diff parser calculated
+2018-04-06 11:38:50 AM diff: line_lengths old: 47, new: 1
+2018-04-06 11:38:50 AM diff replace old[1:47] new[1:1]
+2018-04-06 11:38:50 AM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 11:38:50 AM diff parser end
+2018-04-06 01:19:41 PM Started logging...
+2018-04-06 01:19:49 PM Started logging...
+2018-04-06 01:19:51 PM attach
+2018-04-06 01:19:51 PM 0
+2018-04-06 01:19:51 PM 6
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 1
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 2
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 3
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 4
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 5
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 6
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 7
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 8
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 9
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 10
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 11
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 12
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:30 PM attach
+2018-04-06 01:22:30 PM 13
+2018-04-06 01:22:30 PM 0
+2018-04-06 01:22:32 PM attach: computing convergence for mbar-blocking
+2018-04-06 01:22:51 PM pull: computing convergence for mbar-blocking
+2018-04-06 01:23:01 PM diff parser start
+2018-04-06 01:23:01 PM diff parser calculated
+2018-04-06 01:23:01 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:01 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:01 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:01 PM diff parser end
+2018-04-06 01:23:01 PM diff parser start
+2018-04-06 01:23:01 PM diff parser calculated
+2018-04-06 01:23:01 PM diff: line_lengths old: 406, new: 408
+2018-04-06 01:23:01 PM diff equal old[1:4] new[1:4]
+2018-04-06 01:23:01 PM diff actually copy 1 to 3
+2018-04-06 01:23:01 PM parse_part from 4 to 9 (to 9 in part parser)
+2018-04-06 01:23:01 PM diff insert old[5:4] new[5:5]
+2018-04-06 01:23:01 PM diff equal old[5:12] new[6:13]
+2018-04-06 01:23:01 PM diff actually copy 10 to 13
+2018-04-06 01:23:01 PM diff replace old[13:14] new[14:15]
+2018-04-06 01:23:01 PM parse_part from 14 to 15 (to 15 in part parser)
+2018-04-06 01:23:01 PM diff equal old[15:23] new[16:24]
+2018-04-06 01:23:01 PM diff actually copy 16 to 22
+2018-04-06 01:23:01 PM parse_part from 23 to 25 (to 25 in part parser)
+2018-04-06 01:23:01 PM diff replace old[24:24] new[25:25]
+2018-04-06 01:23:01 PM diff equal old[25:52] new[26:53]
+2018-04-06 01:23:01 PM diff actually copy 26 to 34
+2018-04-06 01:23:01 PM diff actually copy 36 to 44
+2018-04-06 01:23:01 PM parse_part from 45 to 67 (to 67 in part parser)
+2018-04-06 01:23:01 PM diff replace old[53:53] new[54:54]
+2018-04-06 01:23:01 PM diff equal old[54:67] new[55:68]
+2018-04-06 01:23:01 PM parse_part from 68 to 74 (to 74 in part parser)
+2018-04-06 01:23:01 PM diff delete old[68:68] new[69:68]
+2018-04-06 01:23:01 PM diff equal old[69:81] new[69:81]
+2018-04-06 01:23:01 PM parse_part from 75 to 87 (to 87 in part parser)
+2018-04-06 01:23:01 PM diff replace old[82:83] new[82:83]
+2018-04-06 01:23:01 PM diff equal old[84:101] new[84:101]
+2018-04-06 01:23:01 PM diff actually copy 88 to 95
+2018-04-06 01:23:01 PM parse_part from 96 to 106 (to 106 in part parser)
+2018-04-06 01:23:01 PM diff replace old[102:102] new[102:102]
+2018-04-06 01:23:01 PM diff equal old[103:122] new[103:122]
+2018-04-06 01:23:01 PM diff actually copy 107 to 114
+2018-04-06 01:23:01 PM parse_part from 115 to 139 (to 139 in part parser)
+2018-04-06 01:23:01 PM diff insert old[123:122] new[123:125]
+2018-04-06 01:23:01 PM diff equal old[123:145] new[126:148]
+2018-04-06 01:23:01 PM diff actually copy 140 to 143
+2018-04-06 01:23:01 PM parse_part from 144 to 154 (to 154 in part parser)
+2018-04-06 01:23:01 PM diff replace old[146:146] new[149:149]
+2018-04-06 01:23:01 PM diff equal old[147:153] new[150:156]
+2018-04-06 01:23:01 PM parse_part from 155 to 177 (to 177 in part parser)
+2018-04-06 01:23:01 PM diff replace old[154:154] new[157:157]
+2018-04-06 01:23:01 PM diff equal old[155:156] new[158:159]
+2018-04-06 01:23:01 PM diff replace old[157:157] new[160:160]
+2018-04-06 01:23:01 PM diff equal old[158:167] new[161:170]
+2018-04-06 01:23:01 PM diff replace old[168:168] new[171:171]
+2018-04-06 01:23:01 PM diff equal old[169:174] new[172:177]
+2018-04-06 01:23:01 PM diff delete old[175:175] new[178:177]
+2018-04-06 01:23:01 PM diff equal old[176:194] new[178:196]
+2018-04-06 01:23:01 PM parse_part from 178 to 182 (to 182 in part parser)
+2018-04-06 01:23:01 PM diff actually copy 183 to 192
+2018-04-06 01:23:01 PM parse_part from 193 to 214 (to 214 in part parser)
+2018-04-06 01:23:01 PM diff replace old[195:196] new[197:198]
+2018-04-06 01:23:01 PM diff equal old[197:199] new[199:201]
+2018-04-06 01:23:01 PM diff replace old[200:201] new[202:203]
+2018-04-06 01:23:01 PM diff equal old[202:207] new[204:209]
+2018-04-06 01:23:01 PM diff replace old[208:208] new[210:211]
+2018-04-06 01:23:01 PM diff equal old[209:214] new[212:217]
+2018-04-06 01:23:01 PM diff actually copy 215 to 215
+2018-04-06 01:23:01 PM parse_part from 216 to 252 (to 252 in part parser)
+2018-04-06 01:23:01 PM diff replace old[215:215] new[218:218]
+2018-04-06 01:23:01 PM diff equal old[216:220] new[219:223]
+2018-04-06 01:23:01 PM diff replace old[221:221] new[224:224]
+2018-04-06 01:23:01 PM diff equal old[222:225] new[225:228]
+2018-04-06 01:23:01 PM diff replace old[226:226] new[229:229]
+2018-04-06 01:23:01 PM diff equal old[227:228] new[230:231]
+2018-04-06 01:23:01 PM diff replace old[229:232] new[232:235]
+2018-04-06 01:23:01 PM diff equal old[233:233] new[236:236]
+2018-04-06 01:23:01 PM diff replace old[234:234] new[237:237]
+2018-04-06 01:23:01 PM diff equal old[235:242] new[238:245]
+2018-04-06 01:23:01 PM diff replace old[243:243] new[246:246]
+2018-04-06 01:23:01 PM diff equal old[244:246] new[247:249]
+2018-04-06 01:23:01 PM diff replace old[247:247] new[250:250]
+2018-04-06 01:23:01 PM diff equal old[248:267] new[251:270]
+2018-04-06 01:23:01 PM diff actually copy 253 to 256
+2018-04-06 01:23:01 PM diff actually copy 260 to 261
+2018-04-06 01:23:01 PM parse_part from 262 to 312 (to 312 in part parser)
+2018-04-06 01:23:01 PM diff replace old[268:268] new[271:271]
+2018-04-06 01:23:01 PM diff equal old[269:274] new[272:277]
+2018-04-06 01:23:01 PM diff replace old[275:276] new[278:279]
+2018-04-06 01:23:01 PM diff equal old[277:278] new[280:281]
+2018-04-06 01:23:01 PM diff replace old[279:281] new[282:284]
+2018-04-06 01:23:01 PM diff equal old[282:285] new[285:288]
+2018-04-06 01:23:01 PM diff replace old[286:286] new[289:289]
+2018-04-06 01:23:01 PM diff equal old[287:289] new[290:292]
+2018-04-06 01:23:01 PM diff replace old[290:291] new[293:294]
+2018-04-06 01:23:01 PM diff equal old[292:305] new[295:308]
+2018-04-06 01:23:01 PM diff delete old[306:306] new[309:308]
+2018-04-06 01:23:01 PM diff equal old[307:308] new[309:310]
+2018-04-06 01:23:01 PM diff insert old[309:308] new[311:311]
+2018-04-06 01:23:01 PM diff equal old[309:317] new[312:320]
+2018-04-06 01:23:01 PM parse_part from 308 to 316 (to 316 in part parser)
+2018-04-06 01:23:01 PM diff actually copy 317 to 319
+2018-04-06 01:23:01 PM parse_part from 320 to 327 (to 327 in part parser)
+2018-04-06 01:23:01 PM diff replace old[318:323] new[321:326]
+2018-04-06 01:23:01 PM diff equal old[324:324] new[327:327]
+2018-04-06 01:23:01 PM diff insert old[325:324] new[328:328]
+2018-04-06 01:23:01 PM parse_part from 328 to 333 (to 333 in part parser)
+2018-04-06 01:23:01 PM diff equal old[325:335] new[329:339]
+2018-04-06 01:23:01 PM diff actually copy 334 to 335
+2018-04-06 01:23:01 PM parse_part from 336 to 349 (to 349 in part parser)
+2018-04-06 01:23:01 PM diff replace old[336:337] new[340:341]
+2018-04-06 01:23:01 PM diff equal old[338:340] new[342:344]
+2018-04-06 01:23:01 PM diff replace old[341:341] new[345:345]
+2018-04-06 01:23:01 PM diff equal old[342:346] new[346:350]
+2018-04-06 01:23:01 PM parse_part from 350 to 355 (to 355 in part parser)
+2018-04-06 01:23:01 PM diff insert old[347:346] new[351:351]
+2018-04-06 01:23:01 PM diff equal old[347:352] new[352:357]
+2018-04-06 01:23:01 PM parse_part from 356 to 358 (to 358 in part parser)
+2018-04-06 01:23:01 PM diff replace old[353:353] new[358:358]
+2018-04-06 01:23:01 PM diff equal old[354:355] new[359:360]
+2018-04-06 01:23:01 PM parse_part from 359 to 361 (to 361 in part parser)
+2018-04-06 01:23:01 PM diff replace old[356:356] new[361:361]
+2018-04-06 01:23:01 PM diff equal old[357:359] new[362:364]
+2018-04-06 01:23:01 PM parse_part from 362 to 365 (to 365 in part parser)
+2018-04-06 01:23:01 PM diff replace old[360:360] new[365:365]
+2018-04-06 01:23:01 PM diff equal old[361:368] new[366:373]
+2018-04-06 01:23:01 PM parse_part from 366 to 383 (to 383 in part parser)
+2018-04-06 01:23:01 PM diff replace old[369:370] new[374:375]
+2018-04-06 01:23:01 PM diff equal old[371:371] new[376:376]
+2018-04-06 01:23:01 PM diff replace old[372:372] new[377:377]
+2018-04-06 01:23:01 PM diff equal old[373:373] new[378:378]
+2018-04-06 01:23:01 PM diff replace old[374:374] new[379:379]
+2018-04-06 01:23:01 PM diff equal old[375:379] new[380:384]
+2018-04-06 01:23:01 PM parse_part from 384 to 387 (to 387 in part parser)
+2018-04-06 01:23:01 PM diff replace old[380:380] new[385:385]
+2018-04-06 01:23:01 PM diff equal old[381:394] new[386:399]
+2018-04-06 01:23:01 PM diff actually copy 388 to 399
+2018-04-06 01:23:01 PM diff replace old[395:395] new[400:400]
+2018-04-06 01:23:01 PM parse_part from 400 to 400 (to 400 in part parser)
+2018-04-06 01:23:01 PM diff equal old[396:399] new[401:404]
+2018-04-06 01:23:01 PM parse_part from 401 to 407 (to 407 in part parser)
+2018-04-06 01:23:01 PM diff replace old[400:400] new[405:405]
+2018-04-06 01:23:01 PM diff equal old[401:402] new[406:407]
+2018-04-06 01:23:01 PM diff delete old[403:405] new[408:407]
+2018-04-06 01:23:01 PM diff equal old[406:406] new[408:408]
+2018-04-06 01:23:01 PM diff parser end
+2018-04-06 01:23:02 PM diff parser start
+2018-04-06 01:23:02 PM diff parser calculated
+2018-04-06 01:23:02 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:02 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:02 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:02 PM diff parser end
+2018-04-06 01:23:03 PM diff parser start
+2018-04-06 01:23:03 PM diff parser calculated
+2018-04-06 01:23:03 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:03 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:03 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:03 PM diff parser end
+2018-04-06 01:23:04 PM diff parser start
+2018-04-06 01:23:04 PM diff parser calculated
+2018-04-06 01:23:04 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:04 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:04 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:04 PM diff parser end
+2018-04-06 01:23:04 PM diff parser start
+2018-04-06 01:23:04 PM diff parser calculated
+2018-04-06 01:23:04 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:04 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:04 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:04 PM diff parser end
+2018-04-06 01:23:04 PM diff parser start
+2018-04-06 01:23:04 PM diff parser calculated
+2018-04-06 01:23:04 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:04 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:04 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:04 PM diff parser end
+2018-04-06 01:23:04 PM diff parser start
+2018-04-06 01:23:04 PM diff parser calculated
+2018-04-06 01:23:04 PM diff: line_lengths old: 1, new: 1
+2018-04-06 01:23:04 PM diff replace old[1:1] new[1:1]
+2018-04-06 01:23:04 PM parse_part from 1 to 1 (to 0 in part parser)
+2018-04-06 01:23:04 PM diff parser end
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 1
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 2
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 3
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 4
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 5
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 6
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 7
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 8
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 9
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 10
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 11
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 12
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:08 PM attach
+2018-04-06 01:57:08 PM 13
+2018-04-06 01:57:08 PM 0
+2018-04-06 01:57:10 PM attach: computing convergence for mbar-blocking
+2018-04-06 01:57:27 PM pull: computing convergence for mbar-blocking
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 0
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 1
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 2
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 3
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 4
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 5
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 7
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 8
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 9
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 10
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 11
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 12
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:01:07 PM attach
+2018-04-06 02:01:07 PM 13
+2018-04-06 02:01:07 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 0
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 1
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 2
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 3
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 4
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 5
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 7
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 8
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 9
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 10
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 11
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 12
+2018-04-06 02:07:38 PM 6
+2018-04-06 02:07:38 PM attach
+2018-04-06 02:07:38 PM 13
+2018-04-06 02:07:38 PM 6
