@@ -1,8 +1,0 @@
-2018-04-02 04:24:46 PM Started logging...
-2018-04-02 04:25:29 PM diff parser start
-2018-04-02 04:25:29 PM diff parser calculated
-2018-04-02 04:25:29 PM diff: line_lengths old: 1, new: 1
-2018-04-02 04:25:29 PM diff replace old[1:1] new[1:1]
-2018-04-02 04:25:29 PM parse_part from 1 to 1 (to 0 in part parser)
-2018-04-02 04:25:29 PM diff parser end
-2018-04-02 04:26:22 PM Started logging...

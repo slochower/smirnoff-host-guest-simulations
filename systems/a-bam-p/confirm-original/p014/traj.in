@@ -1,0 +1,37 @@
+PBC MD Simulation
+ &cntrl
+  imin =          0,
+  ntx =           1,
+  irest =         0,
+  maxcyc =        0,
+  ncyc =          0,
+  dt =            0.002,
+  nstlim =        1250000,
+  ntpr =          1250000,
+  ntwe =          250,
+  ntwr =          1250000,
+  ntwx =          500,
+  ntxo =          1,
+  ioutfm =        1,
+  ntf =           2,
+  ntc =           2,
+  cut =           9.0,
+  igb =           0,
+  tempi =         298.15,
+  temp0 =         298.15,
+  ntt =           3,
+  gamma_ln =      1.0,
+  ig =            -1,
+  ntp =           1,
+  barostat =      2,
+  ntr =           1,
+  restraint_wt =  50.0,
+  restraintmask = ':1-3',
+  nmropt =        1,
+  pencut =        -1,
+  ntwprt =        146,
+ /
+ &wt type = 'END', /
+DISANG = disang.rest
+LISTOUT = POUT
+
