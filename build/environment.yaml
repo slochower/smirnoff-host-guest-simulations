@@ -22,9 +22,10 @@ dependencies:
   - omnia::openmoltools=0.8.1
   - openeye::openeye-toolkits
   - ambermd::pytraj=2.0.2
+  - omnia::pymbar=3.0.3
   - yapf
   - pip
   - pip:
     - git+https://github.com/open-forcefield-group/openforcefield@32ad91a0fc20e167738810392a7d9452d4dda3bc
     - git+https://github.com/slochower/smirnoff-host-guest@831cc8ede898c2ae72a250b39668c980b1fce20b
-    - git+https://github.com/slochower/paprika/@2abc0486573fad81fe1c4230c00d42fb74d8c30f
+    - git+https://github.com/slochower/pAPRika.git@v0.0.3
