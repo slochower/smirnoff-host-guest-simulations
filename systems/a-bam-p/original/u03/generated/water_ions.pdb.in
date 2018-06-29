@@ -1,7 +1,0 @@
-
-parm a-bam-p/u03/original/full.hmr.topo
-trajin a-bam-p/u03/original/full.crds
-strip :MGO
-strip :BAM
-trajout a-bam-p/u03/generated/water_ions.pdb
-            
