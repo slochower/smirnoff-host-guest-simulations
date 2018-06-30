@@ -1,0 +1,19 @@
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+./
+MGO.mol2
+dum.mol2
+full.crds
+full.hmr.topo
+mdin
+pb3.mol2
+
+sent 191 bytes  received 1,399,256 bytes  2,798,894.00 bytes/sec
+total size is 1,398,673  speedup is 1.00
+rsync -armv -e "ssh" --include="mdin" --include="full.crds" --include="full.hmr.topo" --include="*.mol2" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-pb3-p/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 74 bytes  received 158 bytes  464.00 bytes/sec
+total size is 1,398,673  speedup is 6,028.76
+rsync -armv -e "ssh" --include="mdin" --include="full.crds" --include="full.hmr.topo" --include="*.mol2" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-pb3-p/a00/ .
