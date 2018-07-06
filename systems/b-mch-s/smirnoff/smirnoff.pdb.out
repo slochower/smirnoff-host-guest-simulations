@@ -1,0 +1,55 @@
+
+CPPTRAJ: Trajectory Analysis. V17.00
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 07/03/18 18:24:28
+| Available memory: 3.007 GB
+
+INPUT: Reading input from '/home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/smirnoff/smirnoff.pdb.in'
+  [parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/bgbg-tip3p/full.hmr.topo]
+	Reading '/home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/bgbg-tip3p/full.hmr.topo' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+  [trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/bgbg-tip3p/full.crds]
+	Reading '/home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/bgbg-tip3p/full.crds' as Amber Restart
+  [trajout /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/smirnoff/smirnoff.pdb conect]
+	Writing '/home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/smirnoff/smirnoff.pdb' as PDB
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: full.hmr.topo, 6814 atoms, 2233 res, box: Orthogonal, 2227 mol, 2210 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'full.crds' is an AMBER restart file, no velocities, Parm full.hmr.topo (Orthogonal box) (reading 1 of 1)
+  Coordinate processing will occur on 1 frames.
+
+OUTPUT TRAJECTORIES (1 total):
+  'smirnoff.pdb' (1 frames) is a PDB file with CONECT records
+
+BEGIN TRAJECTORY PROCESSING:
+Warning: No PDB space group specified.
+----- full.crds (1-1, 1) -----
+100% Complete.
+
+Read 1 frames and processed 1 frames.
+TIME: Avg. throughput= 36.3201 frames / second.
+
+ACTION OUTPUT:
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.05%)
+TIME:		Trajectory Process : 0.0275 s ( 80.56%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.0066 s (  0.19%)
+TIME:	Run Total 0.0342 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.0536 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
