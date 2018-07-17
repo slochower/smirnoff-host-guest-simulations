@@ -1,0 +1,5 @@
+
+    parm systems/b-hex-s/smirnoff/p028/full.hmr.topo
+    trajin systems/b-hex-s/smirnoff/p028/full.crds
+    trajout systems/b-hex-s/smirnoff/p028/smirnoff.pdb conect
+    

@@ -1,0 +1,13 @@
+receiving file list ... done
+./
+full.crds
+full.hmr.topo
+
+sent 93 bytes  received 1,253,777 bytes  2,507,740.00 bytes/sec
+total size is 1,253,438  speedup is 1.00
+rsync -armv -e "ssh" --include="full.hmr.topo" --include="full.crds" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-cbu-s/a11/ .
+receiving file list ... done
+
+sent 52 bytes  received 102 bytes  308.00 bytes/sec
+total size is 1,253,438  speedup is 8,139.21
+rsync -armv -e "ssh" --include="full.hmr.topo" --include="full.crds" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-cbu-s/a11/ .

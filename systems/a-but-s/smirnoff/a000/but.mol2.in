@@ -1,0 +1,5 @@
+
+    parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-but-s/smirnoff/a000/full.hmr.topo
+    trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-but-s/smirnoff/a000/smirnoff.pdb
+    mask ":BUT" maskmol2 /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-but-s/smirnoff/a000/but.mol2
+    

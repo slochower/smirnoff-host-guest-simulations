@@ -1,0 +1,5 @@
+
+    parm systems/b-ben-s/smirnoff/p007/full.hmr.topo
+    trajin systems/b-ben-s/smirnoff/p007/full.crds
+    trajout systems/b-ben-s/smirnoff/p007/smirnoff.pdb conect
+    

@@ -1,0 +1,16 @@
+receiving file list ... 
+rsync: change_dir "/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-m4t-p/p21" failed: No such file or directory (2)
+done
+
+sent 49 bytes  received 135 bytes  368.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1650) [Receiver=3.1.2]
+rsync -armv -e "ssh" --include="full.hmr.topo" --include="full.crds" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-m4t-p/p21/ .
+receiving file list ... done
+./
+full.crds
+full.hmr.topo
+
+sent 93 bytes  received 1,391,350 bytes  2,782,886.00 bytes/sec
+total size is 1,390,995  speedup is 1.00
+rsync -armv -e "ssh" --include="full.hmr.topo" --include="full.crds" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-m4t-p/u21/ .

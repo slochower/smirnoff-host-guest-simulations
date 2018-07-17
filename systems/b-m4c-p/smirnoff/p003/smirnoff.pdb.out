@@ -1,0 +1,55 @@
+
+CPPTRAJ: Trajectory Analysis. V17.00
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 07/13/18 13:16:18
+| Available memory: 6.811 GB
+
+INPUT: Reading input from 'systems/b-m4c-p/smirnoff/p003/smirnoff.pdb.in'
+  [parm systems/b-m4c-p/smirnoff/p003/full.hmr.topo]
+	Reading 'systems/b-m4c-p/smirnoff/p003/full.hmr.topo' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+  [trajin systems/b-m4c-p/smirnoff/p003/full.crds]
+	Reading 'systems/b-m4c-p/smirnoff/p003/full.crds' as Amber Restart
+  [trajout systems/b-m4c-p/smirnoff/p003/smirnoff.pdb conect]
+	Writing 'systems/b-m4c-p/smirnoff/p003/smirnoff.pdb' as PDB
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: full.hmr.topo, 6814 atoms, 2233 res, box: Orthogonal, 2227 mol, 2210 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'full.crds' is an AMBER restart file, no velocities, Parm full.hmr.topo (Orthogonal box) (reading 1 of 1)
+  Coordinate processing will occur on 1 frames.
+
+OUTPUT TRAJECTORIES (1 total):
+  'smirnoff.pdb' (1 frames) is a PDB file with CONECT records
+
+BEGIN TRAJECTORY PROCESSING:
+Warning: No PDB space group specified.
+----- full.crds (1-1, 1) -----
+100% Complete.
+
+Read 1 frames and processed 1 frames.
+TIME: Avg. throughput= 36.1206 frames / second.
+
+ACTION OUTPUT:
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.05%)
+TIME:		Trajectory Process : 0.0277 s ( 80.55%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.0067 s (  0.19%)
+TIME:	Run Total 0.0344 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.0566 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+

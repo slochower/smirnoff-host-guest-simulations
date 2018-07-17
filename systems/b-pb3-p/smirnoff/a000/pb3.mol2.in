@@ -1,0 +1,5 @@
+
+    parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-pb3-p/smirnoff/a000/full.hmr.topo
+    trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-pb3-p/smirnoff/a000/smirnoff.pdb
+    mask ":PB3" maskmol2 /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-pb3-p/smirnoff/a000/pb3.mol2
+    

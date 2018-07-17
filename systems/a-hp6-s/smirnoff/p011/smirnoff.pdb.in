@@ -1,0 +1,5 @@
+
+    parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-hp6-s/smirnoff/p011/full.hmr.topo
+    trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-hp6-s/smirnoff/p011/full.crds
+    trajout /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-hp6-s/smirnoff/p011/smirnoff.pdb conect
+    

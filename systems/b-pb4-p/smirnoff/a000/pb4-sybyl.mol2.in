@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+    
+        antechamber -i /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-pb4-p/smirnoff/a000/pb4.mol2 -fi mol2 -o /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-pb4-p/smirnoff/a000/pb4-sybyl.mol2 -fo mol2 -at sybyl -dr n
+        

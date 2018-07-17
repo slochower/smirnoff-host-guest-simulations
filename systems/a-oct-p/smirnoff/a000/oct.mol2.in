@@ -1,0 +1,5 @@
+
+    parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-oct-p/smirnoff/a000/full.hmr.topo
+    trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-oct-p/smirnoff/a000/smirnoff.pdb
+    mask ":OCT" maskmol2 /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-oct-p/smirnoff/a000/oct.mol2
+    

@@ -1,0 +1,7 @@
+
+parm full.hmr.topo
+trajin full.crds
+strip :MGO
+strip :MP3
+trajout water_ions.pdb
+            
