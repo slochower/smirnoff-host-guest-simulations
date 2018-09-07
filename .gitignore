@@ -48,3 +48,5 @@ Thumbs.db
 # pycharm directory
 .idea
 
+.ipynb_checkpoints
+
