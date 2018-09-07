@@ -23,6 +23,7 @@ dependencies:
   - openeye::openeye-toolkits
   - ambermd::pytraj=2.0.2
   - omnia::pymbar=3.0.3
+  - seaborn
   - yapf
   - pip
   - pip:
