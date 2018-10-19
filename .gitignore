@@ -51,3 +51,5 @@ Thumbs.db
 .ipynb_checkpoints
 
 # Ignore all simulation stuff, for the time-being.
+systems/
+
