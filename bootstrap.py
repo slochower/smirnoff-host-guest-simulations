@@ -26,7 +26,7 @@ def summarize(x, y):
 def bootstrap(
     x, x_sem, y, y_sem, cycles=1000, with_replacement=True, with_uncertainty=True
 ):
-    summary_statistics = np.empty(len(cycles))
+    summary_statistics = np.empty((cycles, 8))
     for cycle in range(cycles):
         new_x = np.empty_like(x)
         new_y = np.empty_like(y)
@@ -53,12 +53,42 @@ def bootstrap(
             "R**2": np.mean(summary_statistics[:, 3]),
             "RMSE": np.mean(summary_statistics[:, 4]),
         },
-        "std": {
+        "sem": {
             "slope": np.std(summary_statistics[:, 0]),
             "intercept": np.std(summary_statistics[:, 1]),
             "R": np.std(summary_statistics[:, 2]),
             "R**2": np.std(summary_statistics[:, 3]),
             "RMSE": np.std(summary_statistics[:, 4]),
         },
+    }
+    return results
+
+
+def thermodynamic_bootstrap(
+        x, x_sem, y, y_sem, cycles=1000, with_replacement=True, with_uncertainty=True
+):
+    summary_statistics = np.empty((cycles))
+    R = 1.987204118e-3  # kcal/mol-K
+    temperature = 300  # K
+    beta = 1.0 / (R * temperature)
+
+    for cycle in range(cycles):
+        new_x = np.empty_like(x)
+        new_y = np.empty_like(y)
+
+        if with_uncertainty and x_sem is not None:
+            new_x = np.random.normal(x, x_sem)
+        elif with_uncertainty and x_sem is None:
+            new_x = x
+        if with_uncertainty and y_sem is not None:
+            new_y = np.random.normal(y, y_sem)
+        elif with_uncertainty and y_sem is None:
+            new_y = y
+        summary_statistics[cycle] = -R * temperature * np.log(
+            np.exp(-beta * new_x) + np.exp(-beta * new_y))
+
+    results = {
+        "mean": np.mean(summary_statistics),
+        "sem" : np.std(summary_statistics)
     }
     return results

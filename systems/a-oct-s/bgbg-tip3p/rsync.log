@@ -24,3 +24,19 @@ a-oct-s.pdb
 sent 57 bytes  received 15,527 bytes  10,389.33 bytes/sec
 total size is 15,395  speedup is 0.99
 rsync -armv -e "ssh" --include="a-oct-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-oct-s/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 15,395  speedup is 127.23
+rsync -armv -e "ssh" --include="a-oct-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-oct-s/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 15,395  speedup is 127.23
+rsync -armv -e "ssh" --include="a-oct-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-oct-s/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 15,395  speedup is 127.23
+rsync -armv -e "ssh" --include="a-oct-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-oct-s/a00/ .

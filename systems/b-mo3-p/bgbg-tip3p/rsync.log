@@ -17,3 +17,16 @@ receiving file list ... done
 sent 74 bytes  received 158 bytes  464.00 bytes/sec
 total size is 1,397,291  speedup is 6,022.81
 rsync -armv -e "ssh" --include="mdin" --include="full.crds" --include="full.hmr.topo" --include="*.mol2" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-mo3-p/a00/ .
+receiving file list ... done
+./
+b-mo3-p.pdb
+
+sent 57 bytes  received 17,264 bytes  34,642.00 bytes/sec
+total size is 17,132  speedup is 0.99
+rsync -armv -e "ssh" --include="b-mo3-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-mo3-p/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 17,132  speedup is 141.59
+rsync -armv -e "ssh" --include="b-mo3-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-mo3-p/a00/ .

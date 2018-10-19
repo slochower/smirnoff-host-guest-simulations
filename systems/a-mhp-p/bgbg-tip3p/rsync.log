@@ -24,3 +24,19 @@ a-mhp-p.pdb
 sent 57 bytes  received 15,931 bytes  10,658.67 bytes/sec
 total size is 15,799  speedup is 0.99
 rsync -armv -e "ssh" --include="a-mhp-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-mhp-p/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 15,799  speedup is 130.57
+rsync -armv -e "ssh" --include="a-mhp-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-mhp-p/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 15,799  speedup is 130.57
+rsync -armv -e "ssh" --include="a-mhp-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-mhp-p/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  80.67 bytes/sec
+total size is 15,799  speedup is 130.57
+rsync -armv -e "ssh" --include="a-mhp-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-mhp-p/a00/ .

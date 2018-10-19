@@ -25,3 +25,14 @@ b-ben-p.pdb
 sent 57 bytes  received 16,557 bytes  11,076.00 bytes/sec
 total size is 16,425  speedup is 0.99
 rsync -armv -e "ssh" --include="b-ben-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-ben-p/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 16,425  speedup is 135.74
+rsync -armv -e "ssh" --include="b-ben-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-ben-p/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  80.67 bytes/sec
+total size is 16,425  speedup is 135.74
+rsync -armv -e "ssh" --include="b-ben-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-ben-p/a00/ .

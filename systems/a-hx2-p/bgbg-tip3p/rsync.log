@@ -24,3 +24,19 @@ a-hx2-p.pdb
 sent 57 bytes  received 14,719 bytes  9,850.67 bytes/sec
 total size is 14,587  speedup is 0.99
 rsync -armv -e "ssh" --include="a-hx2-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-hx2-p/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 14,587  speedup is 120.55
+rsync -armv -e "ssh" --include="a-hx2-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-hx2-p/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 14,587  speedup is 120.55
+rsync -armv -e "ssh" --include="a-hx2-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-hx2-p/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 14,587  speedup is 120.55
+rsync -armv -e "ssh" --include="a-hx2-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-hx2-p/a00/ .

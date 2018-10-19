@@ -24,3 +24,14 @@ b-cbu-s.pdb
 sent 57 bytes  received 16,456 bytes  11,008.67 bytes/sec
 total size is 16,324  speedup is 0.99
 rsync -armv -e "ssh" --include="b-cbu-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-cbu-s/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 16,324  speedup is 134.91
+rsync -armv -e "ssh" --include="b-cbu-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-cbu-s/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 16,324  speedup is 134.91
+rsync -armv -e "ssh" --include="b-cbu-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-cbu-s/a00/ .

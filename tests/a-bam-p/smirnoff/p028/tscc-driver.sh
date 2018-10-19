@@ -1,1 +1,0 @@
-../tscc-driver.sh

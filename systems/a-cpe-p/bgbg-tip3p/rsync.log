@@ -30,3 +30,14 @@ receiving file list ... done
 sent 35 bytes  received 86 bytes  242.00 bytes/sec
 total size is 14,584  speedup is 120.53
 rsync -armv -e "ssh" --include="a-cpe-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-cpe-p/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 14,584  speedup is 120.53
+rsync -armv -e "ssh" --include="a-cpe-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-cpe-p/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 14,584  speedup is 120.53
+rsync -armv -e "ssh" --include="a-cpe-p.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/a-cpe-p/a00/ .

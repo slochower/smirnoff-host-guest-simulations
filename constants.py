@@ -134,6 +134,50 @@ b-mo4	-2.51	0.01
 b-pb3	-3.52	0.01
 b-pb4	-3.60	0.02"""
 
+experimental_deltaH = """a-bam	-2.17	0.05
+a-nmb	-2.57	0.06
+a-mba	-2.68	0.07
+a-pam	-3.28	0.02
+a-ham	-4.19	0.02
+a-nmh	-4.20	0.08
+a-mha	-4.28	0.02
+a-hpa	-4.66	0.02
+a-mhp	-4.74	0.02
+a-oam	-5.46	0.03
+b-ham	0.60	0.05
+b-mha	0.47	0.03
+b-oam	-0.48	0.03
+a-cbu	-2.75	0.05
+a-cpe	-2.74	0.02
+a-chp	-2.99	0.23
+a-coc	-0.93	0.32
+b-cbu	0.88	0.17
+b-cpe	-1.09	0.01
+b-mch	-2.29	0.03
+b-m4c	-2.27	0.01
+b-m4t	-2.17	0.02
+b-chp	-2.96	0.01
+b-coc	-3.92	0.06
+a-but	-2.53	0.12
+a-pnt	-2.75	0.01
+a-hex	-3.40	0.02
+a-hx2	-4.12	0.06
+a-hx3	-3.36	0.05
+a-hep	-4.19	0.09
+a-hp6	-4.48	0.02
+a-oct	-4.89	0.03
+b-pnt	1.89	0.53
+b-hex	1.31	0.04
+b-hep	0.42	0.04
+b-ben	-2.51	0.08
+b-pha	-1.79	0.11
+b-mp3	-2.75	0.13
+b-mp4	-2.89	0.05
+b-mo3	-2.93	0.03
+b-mo4	-1.96	0.01
+b-pb3	-2.25	0.01
+b-pb4	-2.82	0.01"""
+
 chemical_types = {
     'aliphatic_ammoniums': ['a-bam', 'a-nmb', 'a-mba', 'a-pam', 'a-ham', 'a-nmh', 'a-mha', 'a-hpa', 'a-mhp', 'a-oam', 'b-ham', 'b-mha', 'b-oam'],
     'cyclic_alcohols': ['a-cbu', 'a-cpe', 'a-chp', 'a-coc', 'b-cbu', 'b-cpe', 'b-mch', 'b-m4c', 'b-m4t', 'b-chp', 'b-coc'],

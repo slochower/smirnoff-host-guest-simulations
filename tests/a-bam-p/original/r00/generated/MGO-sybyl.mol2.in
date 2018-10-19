@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-source $AMBERHOME/amber.sh
-
-        antechamber -i a-bam-p/r00/generated/MGO.mol2 -fi mol2 -o a-bam-p/r00/generated/MGO-sybyl.mol2 -fo mol2 -at sybyl
-        

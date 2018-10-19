@@ -24,3 +24,14 @@ b-coc-s.pdb
 sent 57 bytes  received 17,668 bytes  7,090.00 bytes/sec
 total size is 17,536  speedup is 0.99
 rsync -armv -e "ssh" --include="b-coc-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-coc-s/a00/ .
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 17,536  speedup is 144.93
+rsync -armv -e "ssh" --include="b-coc-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-coc-s/a00/ .
+Warning: remote port forwarding failed for listen port 52698
+receiving file list ... done
+
+sent 35 bytes  received 86 bytes  242.00 bytes/sec
+total size is 17,536  speedup is 144.93
+rsync -armv -e "ssh" --include="b-coc-s.pdb" --exclude="*" davids4@kirkwood:/data/nhenriksen/projects/cds/wat6/bgbg-tip3p/b-coc-s/a00/ .

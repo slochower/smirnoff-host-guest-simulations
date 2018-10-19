@@ -1,0 +1,9 @@
+,atom1,atom2,atom3,atom4,phase,per,phi_x,phi_y,_merge
+3,O5,C1,C2,O2,0.0,3,0.144,,left_only
+4,O5,C1,C2,O2,0.0,2,1.175,,left_only
+5,O5,C1,C2,C3,0.0,3,0.156,,left_only
+41,N1,C1,C2,C3,180.0,2,0.25,,left_only
+42,N1,C1,C2,C3,180.0,1,0.2,,left_only
+72,O5,C1,C2,H2,0.0,3,0.0,,left_only
+73,O5,C1,C2,H2,0.0,1,0.25,,left_only
+75,H1,C1,C2,O2,0.0,1,0.25,,left_only

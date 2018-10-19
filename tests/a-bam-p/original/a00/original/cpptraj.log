@@ -1,6 +1,0 @@
-# 04/02/18 11:50:15
-parm full.hmr.topo
-trajin full.crds
-trajout full.pdb
-run
-quit
