@@ -1,0 +1,7 @@
+,atom1,atom2,atom1_type_smirnoff,atom2_type_smirnoff,req_smirnoff,k_smirnoff,atom1_type_bgbg_tip3p,atom2_type_bgbg_tip3p,req_bgbg_tip3p,k_bgbg_tip3p
+0,C1,O1,1,3,1.37,320.0,c3,os,1.439,301.5
+144,C1,C2,1,4,1.526,310.0,c3,c3,1.535,303.1
+432,C1,H1,1,2,1.09,340.0,c3,h2,1.1,326.4
+676,C2,O2,4,6,1.41,320.0,c3,oh,1.426,314.1
+964,C2,H2,4,5,1.09,340.0,c3,h1,1.093,335.9
+1108,O2,HO2,6,7,0.96,553.0,oh,ho,0.974,369.6

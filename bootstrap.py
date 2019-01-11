@@ -52,6 +52,7 @@ def bootstrap(
             "R": np.mean(summary_statistics[:, 2]),
             "R**2": np.mean(summary_statistics[:, 3]),
             "RMSE": np.mean(summary_statistics[:, 4]),
+            "MSE": np.mean(summary_statistics[:, 5]),
         },
         "sem": {
             "slope": np.std(summary_statistics[:, 0]),
@@ -59,13 +60,14 @@ def bootstrap(
             "R": np.std(summary_statistics[:, 2]),
             "R**2": np.std(summary_statistics[:, 3]),
             "RMSE": np.std(summary_statistics[:, 4]),
+            "MSE": np.std(summary_statistics[:, 5]),
         },
     }
     return results
 
 
 def thermodynamic_bootstrap(
-        x, x_sem, y, y_sem, cycles=1000, with_replacement=True, with_uncertainty=True
+    x, x_sem, y, y_sem, cycles=1000, with_replacement=True, with_uncertainty=True
 ):
     summary_statistics = np.empty((cycles))
     R = 1.987204118e-3  # kcal/mol-K
@@ -84,11 +86,9 @@ def thermodynamic_bootstrap(
             new_y = np.random.normal(y, y_sem)
         elif with_uncertainty and y_sem is None:
             new_y = y
-        summary_statistics[cycle] = -R * temperature * np.log(
-            np.exp(-beta * new_x) + np.exp(-beta * new_y))
+        summary_statistics[cycle] = (
+            -R * temperature * np.log(np.exp(-beta * new_x) + np.exp(-beta * new_y))
+        )
 
-    results = {
-        "mean": np.mean(summary_statistics),
-        "sem" : np.std(summary_statistics)
-    }
+    results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics)}
     return results
