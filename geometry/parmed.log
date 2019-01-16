@@ -1,0 +1,29 @@
+# Log started on 01/15/2019 [mm/dd/yyyy] at 12:54:57
+load_file("alpha_gaff.prmtop")
+parm
+parm alpha_gaff.prmtop
+printdihedrals :4@O4
+printdihedrals :4@O5
+printdihedrals :4@O5
+printdihedrals :4@C3 :4@C2 :4@C1 :4@O5
+printdihedrals :4@C4 :4@C3 :4@C2 :4@C1
+printdihedrals :4@C5 :4@C4 :4@C3 :4@C2
+printdihedrals :4@O5 :4@C5 :4@C4 :4@C3
+printdihedrals :4@C1 :4@O5 :4@C5 :4@C4
+printdihedrals :4@C2 :4@C1 :4@O5 :4@C5
+quiot
+quit
+# Log started on 01/15/2019 [mm/dd/yyyy] at 14:31:31
+parm alpha_smirnoff.prmtop
+printdihedrals :4@C3 :4@C2 :4@C1 :4@O5
+printdihedrals :4@C4 :4@C3 :4@C2 :4@C1
+printdihedrals :4@C5 :4@C4 :4@C3 :4@C2
+printdihedrals :4@O5 :4@C5 :4@C4 :4@C3
+printdihedrals :4@C1 :4@O5 :4@C5 :4@C4
+printdihedrals :4@C2 :4@C1 :4@O5 :4@C5
+quit
+# Log started on 01/15/2019 [mm/dd/yyyy] at 16:26:43
+parm alpha_gaff.prmtop
+printdihedral :4@O5 :4@C1 :4@C2 :4@C3
+printdihedrals :4@O5 :4@C1 :4@C2 :4@C3
+quit
