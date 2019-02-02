@@ -8,7 +8,8 @@ from constants import experimental_deltaH
 from constants import systems
 from constants import guest_types
 
-from bootstrap import thermodynamic_bootstrap
+from bootstrap import dG_bootstrap
+from bootstrap import dH_bootstrap
 
 from paprika.restraints_json import json_numpy_obj_hook
 
@@ -37,7 +38,7 @@ def combine_data(df):
     for hg in df["Short"].unique():
         tmp = df[df["Short"] == hg]
         for _, row in tmp.iterrows():
-            for p in row["System"].split("-")[2]:
+            if "p" in row["System"].split("-")[2]:
                 # Reducing generality for speed.
                 primary_fe = row[f"Delta G"]
                 primary_fe_sem = row[f"G_SEM"]
@@ -50,14 +51,23 @@ def combine_data(df):
 
                 secondary_enthalpy = row[f"Delta H"]
                 secondary_enthalpy_sem = row[f"H_SEM"]
-                combined_fe = thermodynamic_bootstrap(
-                    primary_fe, primary_fe_sem, secondary_fe, secondary_fe_sem
+                combined_fe = dG_bootstrap(
+                    primary_fe,
+                    primary_fe_sem,
+                    secondary_fe,
+                    secondary_fe_sem,
+                    cycles=100000,
                 )
-        combined_enthalpy = thermodynamic_bootstrap(
+        combined_enthalpy = dH_bootstrap(
             primary_enthalpy,
             primary_enthalpy_sem,
             secondary_enthalpy,
             secondary_enthalpy_sem,
+            primary_fe,
+            primary_fe_sem,
+            secondary_fe,
+            secondary_fe_sem,
+            cycles=100000,
         )
 
         combined = combined.append(

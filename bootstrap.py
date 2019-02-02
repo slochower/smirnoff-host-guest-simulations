@@ -66,7 +66,7 @@ def bootstrap(
     return results
 
 
-def thermodynamic_bootstrap(
+def dG_bootstrap(
     x, x_sem, y, y_sem, cycles=1000, with_replacement=True, with_uncertainty=True
 ):
     summary_statistics = np.empty((cycles))
@@ -89,6 +89,59 @@ def thermodynamic_bootstrap(
         summary_statistics[cycle] = (
             -R * temperature * np.log(np.exp(-beta * new_x) + np.exp(-beta * new_y))
         )
+
+    results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics)}
+    return results
+
+
+def dH_bootstrap(
+    dH_x,
+    dH_x_sem,
+    dH_y,
+    dH_y_sem,
+    dG_x,
+    dG_x_sem,
+    dG_y,
+    dG_y_sem,
+    cycles=1000,
+    with_replacement=True,
+    with_uncertainty=True,
+):
+    summary_statistics = np.empty((cycles))
+    R = 1.987204118e-3  # kcal/mol-K
+    temperature = 300  # K
+    beta = 1.0 / (R * temperature)
+
+    for cycle in range(cycles):
+        new_dH_x = np.empty_like(dH_x)
+        new_dH_y = np.empty_like(dH_y)
+
+        new_dG_x = np.empty_like(dG_x)
+        new_dG_y = np.empty_like(dG_y)
+
+        # Resample dH
+        if with_uncertainty and dH_x_sem is not None:
+            new_dH_x = np.random.normal(dH_x, dH_x_sem)
+        elif with_uncertainty and dH_x_sem is None:
+            new_dH_x = dH_x
+        if with_uncertainty and dH_y_sem is not None:
+            new_dH_y = np.random.normal(dH_y, dH_y_sem)
+        elif with_uncertainty and dH_y_sem is None:
+            new_dH_y = dH_y
+
+        # Resample dG
+        if with_uncertainty and dG_x_sem is not None:
+            new_dG_x = np.random.normal(dG_x, dG_x_sem)
+        elif with_uncertainty and dG_x_sem is None:
+            new_dG_x = dG_x
+        if with_uncertainty and dG_y_sem is not None:
+            new_dG_y = np.random.normal(dG_y, dG_y_sem)
+        elif with_uncertainty and dG_y_sem is None:
+            new_dG_y = dG_y
+
+        summary_statistics[cycle] = (
+            new_dH_x * np.exp(-beta * new_dG_x) + new_dH_y * np.exp(-beta * new_dG_y)
+        ) / (np.exp(-beta * new_dG_x) + np.exp(-beta * new_dG_y))
 
     results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics)}
     return results
