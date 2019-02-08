@@ -43,9 +43,5 @@ def table(thermodynamic_quantity="G"):
         print("\n")
 
 
-def dH_table():
-    pass
-
-
 def big_table():
     pass
