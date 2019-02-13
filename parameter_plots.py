@@ -1,3 +1,22 @@
+# ---
+# jupyter:
+#   jupytext_format_version: '1.2'
+#   kernelspec:
+#     display_name: Python [default]
+#     language: python
+#     name: python3
+#   language_info:
+#     codemirror_mode:
+#       name: ipython
+#       version: 3
+#     file_extension: .py
+#     mimetype: text/x-python
+#     name: python
+#     nbconvert_exporter: python
+#     pygments_lexer: ipython3
+#     version: 3.6.4
+# ---
+
 import numpy as np
 import pandas as pd
 
@@ -90,7 +109,8 @@ def scatter_angle(
             arrowprops=dict(arrowstyle="-", color="k"),
         )
 
-    fig.savefig(f"figures/{name}", bbox_inches="tight")
+    fig.savefig(f"figures/{name}.pdf", bbox_inches="tight")
+    fig.savefig(f"figures/{name}.svg", bbox_inches="tight")
 
 
 def scatter_dihedral(
