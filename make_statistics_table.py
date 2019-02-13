@@ -83,5 +83,3 @@ def entropy_table(thermodynamic_quantity="-TdS"):
             print(f"{value:0.2f}", end="\t")
         print("\n")
 
-def big_table():
-    pass
