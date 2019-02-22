@@ -1,5 +1,0 @@
-
-    parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-cpe-p/smirnoff/a000/full.hmr.topo
-    trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-cpe-p/smirnoff/a000/smirnoff.pdb
-    mask ":CPE" maskmol2 /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/a-cpe-p/smirnoff/a000/cpe.mol2
-    

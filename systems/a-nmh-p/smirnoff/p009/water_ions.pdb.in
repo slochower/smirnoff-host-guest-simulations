@@ -1,7 +1,0 @@
-
-parm full.hmr.topo
-trajin full.crds
-strip :MGO
-strip :NMH
-trajout water_ions.pdb
-            

@@ -1,5 +1,0 @@
-
-    parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-coc-s/smirnoff/a000/full.hmr.topo
-    trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-coc-s/smirnoff/a000/smirnoff.pdb
-    mask ":COC" maskmol2 /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-coc-s/smirnoff/a000/coc.mol2
-    

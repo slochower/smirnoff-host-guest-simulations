@@ -1,7 +1,0 @@
-
-parm /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/smirnoff/a000/full.hmr.topo
-trajin /home/dslochower/hgst-3tb-data/projects/smirnoff-host-guest-simulations/systems/b-mch-s/smirnoff/a000/full.crds
-strip :MGO
-strip :MCH
-trajout water_ions.pdb
-            
