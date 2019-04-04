@@ -45,6 +45,13 @@ def bootstrap(
                 new_y[index] = y[j]
         summary_statistics[cycle] = summarize(new_x, new_y)
 
+    ci = np.empty((8, 2))
+    for statistic in range(8):
+        sorted_statistic = np.sort(summary_statistics[:, statistic])
+        ci[statistic][0] = sorted_statistic[int(0.025 * cycles)]
+        ci[statistic][1] = sorted_statistic[int(0.975 * cycles)]
+        
+
     results = {
         "mean": {
             "slope": np.mean(summary_statistics[:, 0]),
@@ -53,6 +60,8 @@ def bootstrap(
             "R**2": np.mean(summary_statistics[:, 3]),
             "RMSE": np.mean(summary_statistics[:, 4]),
             "MSE": np.mean(summary_statistics[:, 5]),
+            "MUE": np.mean(summary_statistics[:, 6]),
+            "Tau": np.mean(summary_statistics[:, 7]),
         },
         "sem": {
             "slope": np.std(summary_statistics[:, 0]),
@@ -61,6 +70,18 @@ def bootstrap(
             "R**2": np.std(summary_statistics[:, 3]),
             "RMSE": np.std(summary_statistics[:, 4]),
             "MSE": np.std(summary_statistics[:, 5]),
+            "MUE": np.std(summary_statistics[:, 6]),
+            "Tau": np.std(summary_statistics[:, 7]),
+        },
+        "ci": {
+            "slope": ci[0],
+            "intercept": ci[1],
+            "R": ci[2],
+            "R**2": ci[3],
+            "RMSE": ci[4],
+            "MSE": ci[5],
+            "MUE": ci[6],
+            "Tau": ci[7],
         },
     }
     return results
