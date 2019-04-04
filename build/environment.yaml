@@ -30,3 +30,4 @@ dependencies:
     - git+https://github.com/open-forcefield-group/openforcefield@32ad91a0fc20e167738810392a7d9452d4dda3bc
     - git+https://github.com/slochower/smirnoff-host-guest@aebdd0f32902f77d8c0af23240ccd8612c1d4f6b
     - git+https://github.com/slochower/pAPRika.git@v0.0.3
+    - adjust_text
