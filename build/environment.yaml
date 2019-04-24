@@ -6,10 +6,11 @@ channels:
   - omnia
   - openeye
   - ambermd
+  - phlya
 dependencies:
   - python=3.6
-  - anaconda::numpy=1.13.3
-  - anaconda::scipy=1.0.0
+  - anaconda::numpy
+  - anaconda::scipy
   - anaconda::matplotlib=2.0.2
   - anaconda::ipykernel=4.8.0
   - anaconda::networkx=1.11
@@ -21,13 +22,16 @@ dependencies:
   - omnia::openmm=7.1.1
   - omnia::openmoltools=0.8.1
   - openeye::openeye-toolkits
-  - ambermd::pytraj=2.0.2
-  - omnia::pymbar=3.0.3
+  - omnia::pymbar
+  - ambertools=18
   - seaborn
   - yapf
+  - black
+  - tqdm
+  - adjusttext
   - pip
   - pip:
     - git+https://github.com/open-forcefield-group/openforcefield@32ad91a0fc20e167738810392a7d9452d4dda3bc
     - git+https://github.com/slochower/smirnoff-host-guest@aebdd0f32902f77d8c0af23240ccd8612c1d4f6b
     - git+https://github.com/slochower/pAPRika.git@v0.0.3
-    - adjust_text
+    - blackcellmagic
