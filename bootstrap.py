@@ -110,8 +110,14 @@ def dG_bootstrap(
         summary_statistics[cycle] = (
             -R * temperature * np.log(np.exp(-beta * new_x) + np.exp(-beta * new_y))
         )
+        
+        sorted_statistic = np.sort(summary_statistics)
+        ci = np.emtpy((2))
+        ci[0] = sorted_statistic[int(0.025 * cycles)]
+        ci[1] = sorted_statistic[int(0.975 * cycles)]
 
-    results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics)}
+    results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics),
+               "ci": ci}
     return results
 
 
@@ -163,6 +169,13 @@ def dH_bootstrap(
         summary_statistics[cycle] = (
             new_dH_x * np.exp(-beta * new_dG_x) + new_dH_y * np.exp(-beta * new_dG_y)
         ) / (np.exp(-beta * new_dG_x) + np.exp(-beta * new_dG_y))
+        
+    sorted_statistic = np.sort(summary_statistics)
+    ci = np.emtpy((2))
+    ci[0] = sorted_statistic[int(0.025 * cycles)]
+    ci[1] = sorted_statistic[int(0.975 * cycles)]
 
-    results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics)}
+
+    results = {"mean": np.mean(summary_statistics), "sem": np.std(summary_statistics),
+               "ci": ci}
     return results
