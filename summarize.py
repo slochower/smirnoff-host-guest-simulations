@@ -75,7 +75,7 @@ def combine_data(df):
                 "System": hg,
                 "Delta G": combined_fe["mean"],
                 "G_SEM": combined_fe["sem"],
-                "G_CI": combined_fe["ci"]
+                "G_CI": combined_fe["ci"],
                 "Delta H": combined_enthalpy["mean"],
                 "H_SEM": combined_enthalpy["sem"],
                 "H_CI": combined_enthalpy["ci"],

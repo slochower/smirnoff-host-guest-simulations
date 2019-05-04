@@ -73,16 +73,27 @@ def bootstrap(
             "MUE": np.std(summary_statistics[:, 6]),
             "Tau": np.std(summary_statistics[:, 7]),
         },
-        "ci": {
-            "slope": ci[0],
-            "intercept": ci[1],
-            "R": ci[2],
-            "R**2": ci[3],
-            "RMSE": ci[4],
-            "MSE": ci[5],
-            "MUE": ci[6],
-            "Tau": ci[7],
+        "ci_low": {
+            "slope": ci[0][0],
+            "intercept": ci[1][0],
+            "R": ci[2][0],
+            "R**2": ci[3][0],
+            "RMSE": ci[4][0],
+            "MSE": ci[5][0],
+            "MUE": ci[6][0],
+            "Tau": ci[7][0],
         },
+        "ci_high": {
+            "slope": ci[0][1],
+            "intercept": ci[1][1],
+            "R": ci[2][1],
+            "R**2": ci[3][1],
+            "RMSE": ci[4][1],
+            "MSE": ci[5][1],
+            "MUE": ci[6][1],
+            "Tau": ci[7][1],
+        },
+
     }
     return results
 
