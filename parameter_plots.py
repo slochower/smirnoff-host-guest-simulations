@@ -1,22 +1,3 @@
-# ---
-# jupyter:
-#   jupytext_format_version: '1.2'
-#   kernelspec:
-#     display_name: Python [default]
-#     language: python
-#     name: python3
-#   language_info:
-#     codemirror_mode:
-#       name: ipython
-#       version: 3
-#     file_extension: .py
-#     mimetype: text/x-python
-#     name: python
-#     nbconvert_exporter: python
-#     pygments_lexer: ipython3
-#     version: 3.6.4
-# ---
-
 import numpy as np
 import pandas as pd
 
@@ -28,7 +9,16 @@ from adjustText import adjust_text
 
 
 def scatter_angle(
-    df, x, y, xlabel, ylabel, lower_lim, upper_lim, highlight_color, name, adjust=False
+    df,
+    x,
+    y,
+    xlabel,
+    ylabel,
+    lower_lim,
+    upper_lim,
+    highlight_color,
+    filename,
+    adjust=False,
 ):
     fig, ax = plt.subplots(1, figsize=(6 * 1.2, 6))
     text = []
@@ -47,7 +37,10 @@ def scatter_angle(
 
         # I've added additional rounding because multiple angles are really quite close together.
         labeled_df = labeled_df.append(
-            pd.DataFrame({"i": np.round(i, 1), "j": np.round(j, 1), "names": ",".join(names)}, index=[0]),
+            pd.DataFrame(
+                {"i": np.round(i, 1), "j": np.round(j, 1), "names": ",".join(names)},
+                index=[0],
+            ),
             ignore_index=True,
         )
 
@@ -77,10 +70,12 @@ def scatter_angle(
         print(f"Pruning {names.split(',')[1:]} from {names.split(',')[0]}.")
         # I am printing this out, because it is not the most general solution.
         # This doesn't truly detect if things are palindromes.
-        labeled_df.iloc[index, labeled_df.columns.get_loc("names")] = names.split(",")[0]
+        labeled_df.iloc[index, labeled_df.columns.get_loc("names")] = names.split(",")[
+            0
+        ]
 
     # Deduplicate names, again.
-    labeled_df.drop_duplicates(subset = "names", inplace=True)
+    labeled_df.drop_duplicates(subset="names", inplace=True)
     labeled_df.reset_index(inplace=True)
 
     for index, row in labeled_df.iterrows():
@@ -92,7 +87,6 @@ def scatter_angle(
 
         else:
             ax.scatter(row.i, row.j, s=80, edgecolor="none", lw=0.2, color="0.5")
-
 
     ax.plot([-500, 500], [-500, 500], ls="-", c="0.3", zorder=-1, lw="0.5")
     ax.set_ylim([lower_lim, upper_lim])
@@ -109,12 +103,21 @@ def scatter_angle(
             arrowprops=dict(arrowstyle="-", color="k"),
         )
 
-    fig.savefig(f"figures/{name}.pdf", bbox_inches="tight")
-    fig.savefig(f"figures/{name}.svg", bbox_inches="tight")
+    fig.savefig(f"figures/{filename}.pdf", bbox_inches="tight")
+    fig.savefig(f"figures/{filename}.svg", bbox_inches="tight")
 
 
 def scatter_dihedral(
-    df, x, y, xlabel, ylabel, lower_lim, upper_lim, highlight_color, name, adjust=False
+    df,
+    x,
+    y,
+    xlabel,
+    ylabel,
+    lower_lim,
+    upper_lim,
+    highlight_color,
+    filename,
+    adjust=False,
 ):
     fig, ax = plt.subplots(1, figsize=(6 * 1.2, 6))
     text = []
@@ -130,11 +133,17 @@ def scatter_dihedral(
         atom2s = tmp.atom2
         atom3s = tmp.atom3
         atom4s = tmp.atom4
-        names = [f"{i.strip()}-{j.strip()}-{k.strip()}-{l.strip()}" for i, j, k, l in zip(atom1s, atom2s, atom3s, atom4s)]
+        names = [
+            f"{i.strip()}-{j.strip()}-{k.strip()}-{l.strip()}"
+            for i, j, k, l in zip(atom1s, atom2s, atom3s, atom4s)
+        ]
 
         # I've added additional rounding because multiple angles are really quite close together.
         labeled_df = labeled_df.append(
-            pd.DataFrame({"i": np.round(i, 2), "j": np.round(j, 2), "names": ",".join(names)}, index=[0]),
+            pd.DataFrame(
+                {"i": np.round(i, 2), "j": np.round(j, 2), "names": ",".join(names)},
+                index=[0],
+            ),
             ignore_index=True,
         )
 
@@ -167,12 +176,13 @@ def scatter_dihedral(
         print(f"Pruning {names.split(',')[1:]} from {names.split(',')[0]}.")
         # I am printing this out, because it is not the most general solution.
         # This doesn't truly detect if things are palindromes.
-        labeled_df.iloc[index, labeled_df.columns.get_loc("names")] = names.split(",")[0]
+        labeled_df.iloc[index, labeled_df.columns.get_loc("names")] = names.split(",")[
+            0
+        ]
 
     # Deduplicate names, again.
-    labeled_df.drop_duplicates(subset = "names", inplace=True)
+    labeled_df.drop_duplicates(subset="names", inplace=True)
     labeled_df.reset_index(inplace=True)
-
 
     print(labeled_df)
 
@@ -185,7 +195,6 @@ def scatter_dihedral(
 
         else:
             ax.scatter(row.i, row.j, s=80, edgecolor="none", lw=0.2, color="0.5")
-
 
     ax.plot([-500, 500], [-500, 500], ls="-", c="0.3", zorder=-1, lw="0.5")
     ax.set_ylim([lower_lim, upper_lim])
@@ -202,4 +211,5 @@ def scatter_dihedral(
             arrowprops=dict(arrowstyle="-", color="k"),
         )
 
-    fig.savefig(f"figures/{name}", bbox_inches="tight")
+    fig.savefig(f"figures/{filename}.pdf", bbox_inches="tight")
+    fig.savefig(f"figures/{filename}.svg", bbox_inches="tight")
