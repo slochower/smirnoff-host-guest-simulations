@@ -20,7 +20,7 @@ def scatter_angle(
     filename,
     adjust=False,
 ):
-    fig, ax = plt.subplots(1, figsize=(6 * 1.2, 6))
+    fig, ax = plt.subplots(1, figsize=(6 * 1.0, 6))
     text = []
 
     labeled_df = pd.DataFrame()
@@ -100,11 +100,11 @@ def scatter_angle(
             text,
             expand_points=(1.5, 1.5),
             expand_text=(2, 2),
-            arrowprops=dict(arrowstyle="-", color="k"),
+            arrowprops=dict(arrowstyle="-", color="r"),
         )
 
     fig.savefig(f"figures/{filename}.pdf", bbox_inches="tight")
-    fig.savefig(f"figures/{filename}.svg", bbox_inches="tight")
+    fig.savefig(f"figures/{filename}.png", dpi=300, bbox_inches="tight")
 
 
 def scatter_dihedral(
@@ -119,7 +119,7 @@ def scatter_dihedral(
     filename,
     adjust=False,
 ):
-    fig, ax = plt.subplots(1, figsize=(6 * 1.2, 6))
+    fig, ax = plt.subplots(1, figsize=(6 * 1.0, 6))
     text = []
 
     labeled_df = pd.DataFrame()
@@ -212,4 +212,4 @@ def scatter_dihedral(
         )
 
     fig.savefig(f"figures/{filename}.pdf", bbox_inches="tight")
-    fig.savefig(f"figures/{filename}.svg", bbox_inches="tight")
+    fig.savefig(f"figures/{filename}.png", dpi=300, bbox_inches="tight")

@@ -1,11 +1,6 @@
 import pandas as pd
 import os
 
-def process_ci(ci):
-    split = ci.strip("[]").split()
-    return float(split[0]), float(split[1])
-
-
 def table(thermodynamic_quantity="G"):
     if not thermodynamic_quantity == "-TdS":
         file_prefixes = [
@@ -27,15 +22,15 @@ def table(thermodynamic_quantity="G"):
         statistics.index = statistics["Unnamed: 0"]
 
         rmse = statistics["mean"]["RMSE"]
-        rmse_ci_low, rmse_ci_high = process_ci(statistics["ci"]["RMSE"])
+        rmse_ci_low, rmse_ci_high = statistics["ci_low"]["RMSE"], statistics["ci_high"]["RMSE"]
         mse = statistics["mean"]["MSE"]
-        mse_ci_low, mse_ci_high = process_ci(statistics["ci"]["MSE"])
+        mse_ci_low, mse_ci_high = statistics["ci_low"]["MSE"], statistics["ci_high"]["MSE"]
         r_2 = statistics["mean"]["R**2"]
-        r_2_ci_low, r_2_ci_high = process_ci(statistics["ci"]["R**2"])
+        r_2_ci_low, r_2_ci_high = statistics["ci_low"]["R**2"], statistics["ci_high"]["R**2"]
         slope = statistics["mean"]["slope"]
-        slope_ci_low, slope_ci_high = process_ci(statistics["ci"]["slope"])
+        slope_ci_low, slope_ci_high = statistics["ci_low"]["slope"], statistics["ci_high"]["slope"]
         intercept = statistics["mean"]["intercept"]
-        intercept_ci_high, intercept_ci_low = process_ci(statistics["ci"]["intercept"])
+        intercept_ci_high, intercept_ci_low = statistics["ci_low"]["intercept"], statistics["ci_high"]["intercept"]
 
         statistics = [
             rmse,
