@@ -1,3 +1,4 @@
+import itertools
 import pandas as pd
 import os
 
@@ -15,8 +16,17 @@ def table(thermodynamic_quantity="G"):
             f"experimental_bg2bg2_{thermodynamic_quantity}_statistics",
         ]
 
-    files = [file + "_overall.csv" for file in file_prefixes]
-    names = ["SMIRNOFF99Frosst", "GAFF v1.7", "GAFF v2.1"]
+    suffixes = ["_overall.csv",
+                "_aliphatic_ammoniums.csv",
+                "_aliphatic_carboxylates.csv",
+                "_cyclic_alcohols.csv"
+               ]
+        
+    files = [file + suffix for file in file_prefixes for suffix in suffixes]
+    
+    names = ["SMIRNOFF99Frosst", "SMIRNOFF99Frosst", "SMIRNOFF99Frosst", "SMIRNOFF99Frosst",
+             "GAFF v1.7", "GAFF v1.7", "GAFF v1.7", "GAFF v1.7", 
+             "GAFF v2.1", "GAFF v2.1", "GAFF v2.1", "GAFF v2.1"]
     for name, file in zip(names, files):
         statistics = pd.read_csv(os.path.join("results", file))
         statistics.index = statistics["Unnamed: 0"]
@@ -60,6 +70,11 @@ def table(thermodynamic_quantity="G"):
 #               "    Mean | 2.5% CI | 97.5% CI |",
 #               "    Mean | 2.5% CI | 97.5% CI |",
 #                 )
+
+        print("")
+        print(file)
+        print("")
+    
         if not thermodynamic_quantity == "-TdS":
             print(f"| Δ{thermodynamic_quantity}", end = " | ")
         else:
