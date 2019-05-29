@@ -106,7 +106,7 @@ def dG_bootstrap(
     temperature = 300  # K
     beta = 1.0 / (R * temperature)
 
-    for cycle in range(cycles):
+    for cycle in tqdm(range(cycles)):
         new_x = np.empty_like(x)
         new_y = np.empty_like(y)
 
@@ -123,7 +123,7 @@ def dG_bootstrap(
         )
         
         sorted_statistic = np.sort(summary_statistics)
-        ci = np.emtpy((2))
+        ci = np.empty((2))
         ci[0] = sorted_statistic[int(0.025 * cycles)]
         ci[1] = sorted_statistic[int(0.975 * cycles)]
 
@@ -150,7 +150,7 @@ def dH_bootstrap(
     temperature = 300  # K
     beta = 1.0 / (R * temperature)
 
-    for cycle in range(cycles):
+    for cycle in tqdm(range(cycles)):
         new_dH_x = np.empty_like(dH_x)
         new_dH_y = np.empty_like(dH_y)
 
@@ -182,7 +182,7 @@ def dH_bootstrap(
         ) / (np.exp(-beta * new_dG_x) + np.exp(-beta * new_dG_y))
         
     sorted_statistic = np.sort(summary_statistics)
-    ci = np.emtpy((2))
+    ci = np.empty((2))
     ci[0] = sorted_statistic[int(0.025 * cycles)]
     ci[1] = sorted_statistic[int(0.975 * cycles)]
 
