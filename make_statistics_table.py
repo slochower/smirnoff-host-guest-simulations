@@ -2,31 +2,37 @@ import itertools
 import pandas as pd
 import os
 
-def table(thermodynamic_quantity="G"):
+def table(thermodynamic_quantity="G", subset="overall", comparison="experimental_smirnoff"):
     if not thermodynamic_quantity == "-TdS":
-        file_prefixes = [
-            f"experimental_smirnoff_d{thermodynamic_quantity}_statistics",
-            f"experimental_bgbg_d{thermodynamic_quantity}_statistics",
-            f"experimental_bg2bg2_d{thermodynamic_quantity}_statistics",
-        ]
+        file_prefixes = [f"{comparison}_d{thermodynamic_quantity}_statistics_{subset}.csv"]
     else:
-        file_prefixes = [
-            f"experimental_smirnoff_{thermodynamic_quantity}_statistics",
-            f"experimental_bgbg_{thermodynamic_quantity}_statistics",
-            f"experimental_bg2bg2_{thermodynamic_quantity}_statistics",
-        ]
+        file_prefixes = [f"{comparison}_{thermodynamic_quantity}_statistics_{subset}.csv"]
 
-    suffixes = ["_overall.csv",
-                "_aliphatic_ammoniums.csv",
-                "_aliphatic_carboxylates.csv",
-                "_cyclic_alcohols.csv"
-               ]
+#         file_prefixes = [
+#             f"experimental_smirnoff_d{thermodynamic_quantity}_statistics",
+#             f"experimental_bgbg_d{thermodynamic_quantity}_statistics",
+#             f"experimental_bg2bg2_d{thermodynamic_quantity}_statistics",
+#         ]
+
+
         
-    files = [file + suffix for file in file_prefixes for suffix in suffixes]
+#     suffixes = ["_overall.csv",
+#                 "_aliphatic_ammoniums.csv",
+#                 "_aliphatic_carboxylates.csv",
+#                 "_cyclic_alcohols.csv"
+#                ]
+        
+    files = [file for file in file_prefixes]
+    mapping = {"smirnoff": "SMIRNOFF99Frosst",
+               "bgbg": "GAFF v1.7",
+               "bg2bg2": "GAFF v2.1"
+              }
     
-    names = ["SMIRNOFF99Frosst", "SMIRNOFF99Frosst", "SMIRNOFF99Frosst", "SMIRNOFF99Frosst",
-             "GAFF v1.7", "GAFF v1.7", "GAFF v1.7", "GAFF v1.7", 
-             "GAFF v2.1", "GAFF v2.1", "GAFF v2.1", "GAFF v2.1"]
+#     names = ["SMIRNOFF99Frosst", "SMIRNOFF99Frosst", "SMIRNOFF99Frosst", "SMIRNOFF99Frosst",
+#              "GAFF v1.7", "GAFF v1.7", "GAFF v1.7", "GAFF v1.7", 
+#              "GAFF v2.1", "GAFF v2.1", "GAFF v2.1", "GAFF v2.1"]
+    simulation_name = comparison.split("_")[1]
+    names = [mapping[simulation_name]]
     for name, file in zip(names, files):
         statistics = pd.read_csv(os.path.join("results", file))
         statistics.index = statistics["Unnamed: 0"]
@@ -41,6 +47,8 @@ def table(thermodynamic_quantity="G"):
         slope_ci_low, slope_ci_high = statistics["ci_low"]["slope"], statistics["ci_high"]["slope"]
         intercept = statistics["mean"]["intercept"]
         intercept_ci_high, intercept_ci_low = statistics["ci_low"]["intercept"], statistics["ci_high"]["intercept"]
+        tau = statistics["mean"]["Tau"]
+        tau_ci_high, tau_ci_low = statistics["ci_low"]["Tau"], statistics["ci_high"]["Tau"]
 
         statistics = [
             rmse,
@@ -57,7 +65,10 @@ def table(thermodynamic_quantity="G"):
             slope_ci_high],
             intercept,
             [intercept_ci_low,
-            intercept_ci_high]
+            intercept_ci_high],
+            tau,
+            [tau_ci_low,
+             tau_ci_high]
         ]
 #         print("| | RMSE |         |          |"
 #               "    MSE  |         |          |"
@@ -71,14 +82,16 @@ def table(thermodynamic_quantity="G"):
 #               "    Mean | 2.5% CI | 97.5% CI |",
 #                 )
 
-        print("")
-        print(file)
-        print("")
+#         print("")
+#         print(file)
+#         print("")
     
-        if not thermodynamic_quantity == "-TdS":
+        if thermodynamic_quantity == "G":
+            print(f"| Δ{thermodynamic_quantity}°", end = " | ")
+        elif thermodynamic_quantity == "H":
             print(f"| Δ{thermodynamic_quantity}", end = " | ")
         else:
-            print(f"| -TΔS", end = " | ")
+            print(f"| −TΔS°", end = " | ")
         print(name, end=" | ")
         for value in statistics:
             if not isinstance(value, list):
